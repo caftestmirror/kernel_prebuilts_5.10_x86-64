@@ -124,6 +124,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_do_send_sig_info' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa9566dc2'/>
       <elf-symbol name='__SCT__tp_func_android_vh_do_wake_up_sync' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9fca4110'/>
       <elf-symbol name='__SCT__tp_func_android_vh_dump_throttled_rt_tasks' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3362dca'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_dup_task_struct' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x266faae6'/>
       <elf-symbol name='__SCT__tp_func_android_vh_em_cpu_energy' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xdfb9fa0'/>
       <elf-symbol name='__SCT__tp_func_android_vh_enable_thermal_genl_check' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x66c8207'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ep_create_wakeup_source' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd0a4b267'/>
@@ -143,6 +144,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_gpio_block_read' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x51b3c14d'/>
       <elf-symbol name='__SCT__tp_func_android_vh_iommu_setup_dma_ops' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7191bd75'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ipi_stop' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc2e1377a'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_irqtime_account_process_tick' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x951823da'/>
       <elf-symbol name='__SCT__tp_func_android_vh_is_fpsimd_save' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8fe1ea8'/>
       <elf-symbol name='__SCT__tp_func_android_vh_jiffies_update' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa596bed2'/>
       <elf-symbol name='__SCT__tp_func_android_vh_logbuf' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc144636f'/>
@@ -195,6 +197,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_sync_txn_recvd' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2a914520'/>
       <elf-symbol name='__SCT__tp_func_android_vh_syscall_prctl_finished' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7cac4626'/>
       <elf-symbol name='__SCT__tp_func_android_vh_sysrq_crash' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4b0d74b8'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_thermal_pm_notify_suspend' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xaef17d05'/>
       <elf-symbol name='__SCT__tp_func_android_vh_timer_calc_index' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe73bc2fe'/>
       <elf-symbol name='__SCT__tp_func_android_vh_timerfd_create' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc1bfef8b'/>
       <elf-symbol name='__SCT__tp_func_android_vh_try_to_freeze_todo' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xedb43047'/>
@@ -3732,210 +3735,210 @@
           <var-decl name='attach_type' type-id='3f1a6b60' visibility='default' filepath='include/uapi/linux/bpf.h' line='81' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='perf_event' size-in-bits='7936' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='626' column='1' id='7263c471'>
+      <class-decl name='perf_event' size-in-bits='7936' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='627' column='1' id='7263c471'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='event_entry' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='633' column='1'/>
+          <var-decl name='event_entry' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='634' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='sibling_list' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='639' column='1'/>
+          <var-decl name='sibling_list' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='640' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='256'>
-          <var-decl name='active_list' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='640' column='1'/>
+          <var-decl name='active_list' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='641' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='384'>
-          <var-decl name='group_node' type-id='2a8a6332' visibility='default' filepath='include/linux/perf_event.h' line='644' column='1'/>
+          <var-decl name='group_node' type-id='2a8a6332' visibility='default' filepath='include/linux/perf_event.h' line='645' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='576'>
-          <var-decl name='group_index' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='645' column='1'/>
+          <var-decl name='group_index' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='646' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='640'>
-          <var-decl name='migrate_entry' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='651' column='1'/>
+          <var-decl name='migrate_entry' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='652' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='768'>
-          <var-decl name='hlist_entry' type-id='03a4a074' visibility='default' filepath='include/linux/perf_event.h' line='653' column='1'/>
+          <var-decl name='hlist_entry' type-id='03a4a074' visibility='default' filepath='include/linux/perf_event.h' line='654' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='896'>
-          <var-decl name='active_entry' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='654' column='1'/>
+          <var-decl name='active_entry' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='655' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1024'>
-          <var-decl name='nr_siblings' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='655' column='1'/>
+          <var-decl name='nr_siblings' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='656' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1056'>
-          <var-decl name='event_caps' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='658' column='1'/>
+          <var-decl name='event_caps' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='659' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1088'>
-          <var-decl name='group_caps' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='660' column='1'/>
+          <var-decl name='group_caps' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='661' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1152'>
-          <var-decl name='group_leader' type-id='2bf16f59' visibility='default' filepath='include/linux/perf_event.h' line='662' column='1'/>
+          <var-decl name='group_leader' type-id='2bf16f59' visibility='default' filepath='include/linux/perf_event.h' line='663' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1216'>
-          <var-decl name='pmu' type-id='0906f5b9' visibility='default' filepath='include/linux/perf_event.h' line='663' column='1'/>
+          <var-decl name='pmu' type-id='0906f5b9' visibility='default' filepath='include/linux/perf_event.h' line='664' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1280'>
-          <var-decl name='pmu_private' type-id='eaa32e2f' visibility='default' filepath='include/linux/perf_event.h' line='664' column='1'/>
+          <var-decl name='pmu_private' type-id='eaa32e2f' visibility='default' filepath='include/linux/perf_event.h' line='665' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1344'>
-          <var-decl name='state' type-id='31fdb95a' visibility='default' filepath='include/linux/perf_event.h' line='666' column='1'/>
+          <var-decl name='state' type-id='31fdb95a' visibility='default' filepath='include/linux/perf_event.h' line='667' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1376'>
-          <var-decl name='attach_state' type-id='f0981eeb' visibility='default' filepath='include/linux/perf_event.h' line='667' column='1'/>
+          <var-decl name='attach_state' type-id='f0981eeb' visibility='default' filepath='include/linux/perf_event.h' line='668' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1408'>
-          <var-decl name='count' type-id='7da7300e' visibility='default' filepath='include/linux/perf_event.h' line='668' column='1'/>
+          <var-decl name='count' type-id='7da7300e' visibility='default' filepath='include/linux/perf_event.h' line='669' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1472'>
-          <var-decl name='child_count' type-id='28ee064c' visibility='default' filepath='include/linux/perf_event.h' line='669' column='1'/>
+          <var-decl name='child_count' type-id='28ee064c' visibility='default' filepath='include/linux/perf_event.h' line='670' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1536'>
-          <var-decl name='total_time_enabled' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='677' column='1'/>
+          <var-decl name='total_time_enabled' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='678' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1600'>
-          <var-decl name='total_time_running' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='678' column='1'/>
+          <var-decl name='total_time_running' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='679' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1664'>
-          <var-decl name='tstamp' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='679' column='1'/>
+          <var-decl name='tstamp' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='680' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1728'>
-          <var-decl name='shadow_ctx_time' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='689' column='1'/>
+          <var-decl name='shadow_ctx_time' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='690' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1792'>
-          <var-decl name='attr' type-id='e57536d9' visibility='default' filepath='include/linux/perf_event.h' line='691' column='1'/>
+          <var-decl name='attr' type-id='e57536d9' visibility='default' filepath='include/linux/perf_event.h' line='692' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2752'>
-          <var-decl name='header_size' type-id='1dc6a898' visibility='default' filepath='include/linux/perf_event.h' line='692' column='1'/>
+          <var-decl name='header_size' type-id='1dc6a898' visibility='default' filepath='include/linux/perf_event.h' line='693' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2768'>
-          <var-decl name='id_header_size' type-id='1dc6a898' visibility='default' filepath='include/linux/perf_event.h' line='693' column='1'/>
+          <var-decl name='id_header_size' type-id='1dc6a898' visibility='default' filepath='include/linux/perf_event.h' line='694' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2784'>
-          <var-decl name='read_size' type-id='1dc6a898' visibility='default' filepath='include/linux/perf_event.h' line='694' column='1'/>
+          <var-decl name='read_size' type-id='1dc6a898' visibility='default' filepath='include/linux/perf_event.h' line='695' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2816'>
-          <var-decl name='hw' type-id='b594b0c9' visibility='default' filepath='include/linux/perf_event.h' line='695' column='1'/>
+          <var-decl name='hw' type-id='b594b0c9' visibility='default' filepath='include/linux/perf_event.h' line='696' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4352'>
-          <var-decl name='ctx' type-id='b9419dc5' visibility='default' filepath='include/linux/perf_event.h' line='697' column='1'/>
+          <var-decl name='ctx' type-id='b9419dc5' visibility='default' filepath='include/linux/perf_event.h' line='698' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4416'>
-          <var-decl name='refcount' type-id='f22a8abb' visibility='default' filepath='include/linux/perf_event.h' line='698' column='1'/>
+          <var-decl name='refcount' type-id='f22a8abb' visibility='default' filepath='include/linux/perf_event.h' line='699' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4480'>
-          <var-decl name='child_total_time_enabled' type-id='28ee064c' visibility='default' filepath='include/linux/perf_event.h' line='704' column='1'/>
+          <var-decl name='child_total_time_enabled' type-id='28ee064c' visibility='default' filepath='include/linux/perf_event.h' line='705' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4544'>
-          <var-decl name='child_total_time_running' type-id='28ee064c' visibility='default' filepath='include/linux/perf_event.h' line='705' column='1'/>
+          <var-decl name='child_total_time_running' type-id='28ee064c' visibility='default' filepath='include/linux/perf_event.h' line='706' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4608'>
-          <var-decl name='child_mutex' type-id='925167dc' visibility='default' filepath='include/linux/perf_event.h' line='710' column='1'/>
+          <var-decl name='child_mutex' type-id='925167dc' visibility='default' filepath='include/linux/perf_event.h' line='711' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4864'>
-          <var-decl name='child_list' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='711' column='1'/>
+          <var-decl name='child_list' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='712' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4992'>
-          <var-decl name='parent' type-id='2bf16f59' visibility='default' filepath='include/linux/perf_event.h' line='712' column='1'/>
+          <var-decl name='parent' type-id='2bf16f59' visibility='default' filepath='include/linux/perf_event.h' line='713' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5056'>
-          <var-decl name='oncpu' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='714' column='1'/>
+          <var-decl name='oncpu' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='715' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5088'>
-          <var-decl name='cpu' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='715' column='1'/>
+          <var-decl name='cpu' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='716' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5120'>
-          <var-decl name='owner_entry' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='717' column='1'/>
+          <var-decl name='owner_entry' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='718' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5248'>
-          <var-decl name='owner' type-id='f23e2572' visibility='default' filepath='include/linux/perf_event.h' line='718' column='1'/>
+          <var-decl name='owner' type-id='f23e2572' visibility='default' filepath='include/linux/perf_event.h' line='719' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5312'>
-          <var-decl name='mmap_mutex' type-id='925167dc' visibility='default' filepath='include/linux/perf_event.h' line='721' column='1'/>
+          <var-decl name='mmap_mutex' type-id='925167dc' visibility='default' filepath='include/linux/perf_event.h' line='722' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5568'>
-          <var-decl name='mmap_count' type-id='49178f86' visibility='default' filepath='include/linux/perf_event.h' line='722' column='1'/>
+          <var-decl name='mmap_count' type-id='49178f86' visibility='default' filepath='include/linux/perf_event.h' line='723' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5632'>
-          <var-decl name='rb' type-id='35b814e1' visibility='default' filepath='include/linux/perf_event.h' line='724' column='1'/>
+          <var-decl name='rb' type-id='35b814e1' visibility='default' filepath='include/linux/perf_event.h' line='725' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5696'>
-          <var-decl name='rb_entry' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='725' column='1'/>
+          <var-decl name='rb_entry' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='726' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5824'>
-          <var-decl name='rcu_batches' type-id='7359adad' visibility='default' filepath='include/linux/perf_event.h' line='726' column='1'/>
+          <var-decl name='rcu_batches' type-id='7359adad' visibility='default' filepath='include/linux/perf_event.h' line='727' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5888'>
-          <var-decl name='rcu_pending' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='727' column='1'/>
+          <var-decl name='rcu_pending' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='728' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5952'>
-          <var-decl name='waitq' type-id='b5ab048f' visibility='default' filepath='include/linux/perf_event.h' line='730' column='1'/>
+          <var-decl name='waitq' type-id='b5ab048f' visibility='default' filepath='include/linux/perf_event.h' line='731' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6144'>
-          <var-decl name='fasync' type-id='5bb9c75d' visibility='default' filepath='include/linux/perf_event.h' line='731' column='1'/>
+          <var-decl name='fasync' type-id='5bb9c75d' visibility='default' filepath='include/linux/perf_event.h' line='732' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6208'>
-          <var-decl name='pending_wakeup' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='734' column='1'/>
+          <var-decl name='pending_wakeup' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='735' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6240'>
-          <var-decl name='pending_kill' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='735' column='1'/>
+          <var-decl name='pending_kill' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='736' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6272'>
-          <var-decl name='pending_disable' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='736' column='1'/>
+          <var-decl name='pending_disable' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='737' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6336'>
-          <var-decl name='pending' type-id='9281c70f' visibility='default' filepath='include/linux/perf_event.h' line='737' column='1'/>
+          <var-decl name='pending' type-id='9281c70f' visibility='default' filepath='include/linux/perf_event.h' line='738' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6528'>
-          <var-decl name='event_limit' type-id='49178f86' visibility='default' filepath='include/linux/perf_event.h' line='739' column='1'/>
+          <var-decl name='event_limit' type-id='49178f86' visibility='default' filepath='include/linux/perf_event.h' line='740' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6592'>
-          <var-decl name='addr_filters' type-id='54885433' visibility='default' filepath='include/linux/perf_event.h' line='742' column='1'/>
+          <var-decl name='addr_filters' type-id='54885433' visibility='default' filepath='include/linux/perf_event.h' line='743' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6784'>
-          <var-decl name='addr_filter_ranges' type-id='200ffa89' visibility='default' filepath='include/linux/perf_event.h' line='744' column='1'/>
+          <var-decl name='addr_filter_ranges' type-id='200ffa89' visibility='default' filepath='include/linux/perf_event.h' line='745' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6848'>
-          <var-decl name='addr_filters_gen' type-id='7359adad' visibility='default' filepath='include/linux/perf_event.h' line='745' column='1'/>
+          <var-decl name='addr_filters_gen' type-id='7359adad' visibility='default' filepath='include/linux/perf_event.h' line='746' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6912'>
-          <var-decl name='aux_event' type-id='2bf16f59' visibility='default' filepath='include/linux/perf_event.h' line='748' column='1'/>
+          <var-decl name='aux_event' type-id='2bf16f59' visibility='default' filepath='include/linux/perf_event.h' line='749' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6976'>
-          <var-decl name='destroy' type-id='aed2baa8' visibility='default' filepath='include/linux/perf_event.h' line='750' column='1'/>
+          <var-decl name='destroy' type-id='aed2baa8' visibility='default' filepath='include/linux/perf_event.h' line='751' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7040'>
-          <var-decl name='callback_head' type-id='e3d8ce29' visibility='default' filepath='include/linux/perf_event.h' line='751' column='1'/>
+          <var-decl name='callback_head' type-id='e3d8ce29' visibility='default' filepath='include/linux/perf_event.h' line='752' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7168'>
-          <var-decl name='ns' type-id='b816e1d0' visibility='default' filepath='include/linux/perf_event.h' line='753' column='1'/>
+          <var-decl name='ns' type-id='b816e1d0' visibility='default' filepath='include/linux/perf_event.h' line='754' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7232'>
-          <var-decl name='id' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='754' column='1'/>
+          <var-decl name='id' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='755' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7296'>
-          <var-decl name='clock' type-id='0e70db3e' visibility='default' filepath='include/linux/perf_event.h' line='756' column='1'/>
+          <var-decl name='clock' type-id='0e70db3e' visibility='default' filepath='include/linux/perf_event.h' line='757' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7360'>
-          <var-decl name='overflow_handler' type-id='20a2e4e6' visibility='default' filepath='include/linux/perf_event.h' line='757' column='1'/>
+          <var-decl name='overflow_handler' type-id='20a2e4e6' visibility='default' filepath='include/linux/perf_event.h' line='758' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7424'>
-          <var-decl name='overflow_handler_context' type-id='eaa32e2f' visibility='default' filepath='include/linux/perf_event.h' line='758' column='1'/>
+          <var-decl name='overflow_handler_context' type-id='eaa32e2f' visibility='default' filepath='include/linux/perf_event.h' line='759' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7488'>
-          <var-decl name='orig_overflow_handler' type-id='20a2e4e6' visibility='default' filepath='include/linux/perf_event.h' line='760' column='1'/>
+          <var-decl name='orig_overflow_handler' type-id='20a2e4e6' visibility='default' filepath='include/linux/perf_event.h' line='761' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7552'>
-          <var-decl name='prog' type-id='bdcee7ae' visibility='default' filepath='include/linux/perf_event.h' line='761' column='1'/>
+          <var-decl name='prog' type-id='bdcee7ae' visibility='default' filepath='include/linux/perf_event.h' line='762' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7616'>
-          <var-decl name='tp_event' type-id='23d6768c' visibility='default' filepath='include/linux/perf_event.h' line='765' column='1'/>
+          <var-decl name='tp_event' type-id='23d6768c' visibility='default' filepath='include/linux/perf_event.h' line='766' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7680'>
-          <var-decl name='filter' type-id='26461068' visibility='default' filepath='include/linux/perf_event.h' line='766' column='1'/>
+          <var-decl name='filter' type-id='26461068' visibility='default' filepath='include/linux/perf_event.h' line='767' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7744'>
-          <var-decl name='security' type-id='eaa32e2f' visibility='default' filepath='include/linux/perf_event.h' line='777' column='1'/>
+          <var-decl name='security' type-id='eaa32e2f' visibility='default' filepath='include/linux/perf_event.h' line='778' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7808'>
-          <var-decl name='sb_list' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='779' column='1'/>
+          <var-decl name='sb_list' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='780' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='pmu' size-in-bits='2368' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='278' column='1' id='e205b6f1'>
@@ -4057,136 +4060,136 @@
           <var-decl name='check_period' type-id='36f91979' visibility='default' filepath='include/linux/perf_event.h' line='515' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='perf_cpu_context' size-in-bits='3392' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='860' column='1' id='4448fdd3'>
+      <class-decl name='perf_cpu_context' size-in-bits='3392' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='861' column='1' id='4448fdd3'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='ctx' type-id='9d67acd5' visibility='default' filepath='include/linux/perf_event.h' line='861' column='1'/>
+          <var-decl name='ctx' type-id='9d67acd5' visibility='default' filepath='include/linux/perf_event.h' line='862' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2048'>
-          <var-decl name='task_ctx' type-id='b9419dc5' visibility='default' filepath='include/linux/perf_event.h' line='862' column='1'/>
+          <var-decl name='task_ctx' type-id='b9419dc5' visibility='default' filepath='include/linux/perf_event.h' line='863' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2112'>
-          <var-decl name='active_oncpu' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='863' column='1'/>
+          <var-decl name='active_oncpu' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='864' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2144'>
-          <var-decl name='exclusive' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='864' column='1'/>
+          <var-decl name='exclusive' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='865' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2176'>
-          <var-decl name='hrtimer_lock' type-id='f5c90b3f' visibility='default' filepath='include/linux/perf_event.h' line='866' column='1'/>
+          <var-decl name='hrtimer_lock' type-id='f5c90b3f' visibility='default' filepath='include/linux/perf_event.h' line='867' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2240'>
-          <var-decl name='hrtimer' type-id='b6993efc' visibility='default' filepath='include/linux/perf_event.h' line='867' column='1'/>
+          <var-decl name='hrtimer' type-id='b6993efc' visibility='default' filepath='include/linux/perf_event.h' line='868' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2816'>
-          <var-decl name='hrtimer_interval' type-id='fbc017ef' visibility='default' filepath='include/linux/perf_event.h' line='868' column='1'/>
+          <var-decl name='hrtimer_interval' type-id='fbc017ef' visibility='default' filepath='include/linux/perf_event.h' line='869' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2880'>
-          <var-decl name='hrtimer_active' type-id='f0981eeb' visibility='default' filepath='include/linux/perf_event.h' line='869' column='1'/>
+          <var-decl name='hrtimer_active' type-id='f0981eeb' visibility='default' filepath='include/linux/perf_event.h' line='870' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2944'>
-          <var-decl name='sched_cb_entry' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='876' column='1'/>
+          <var-decl name='sched_cb_entry' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='877' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3072'>
-          <var-decl name='sched_cb_usage' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='877' column='1'/>
+          <var-decl name='sched_cb_usage' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='878' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3104'>
-          <var-decl name='online' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='879' column='1'/>
+          <var-decl name='online' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='880' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3136'>
-          <var-decl name='heap_size' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='884' column='1'/>
+          <var-decl name='heap_size' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='885' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3200'>
-          <var-decl name='heap' type-id='a0127209' visibility='default' filepath='include/linux/perf_event.h' line='885' column='1'/>
+          <var-decl name='heap' type-id='a0127209' visibility='default' filepath='include/linux/perf_event.h' line='886' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3264'>
-          <var-decl name='heap_default' type-id='e0f8c0f3' visibility='default' filepath='include/linux/perf_event.h' line='886' column='1'/>
+          <var-decl name='heap_default' type-id='e0f8c0f3' visibility='default' filepath='include/linux/perf_event.h' line='887' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='perf_event_context' size-in-bits='2048' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='794' column='1' id='9d67acd5'>
+      <class-decl name='perf_event_context' size-in-bits='2048' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='795' column='1' id='9d67acd5'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='pmu' type-id='0906f5b9' visibility='default' filepath='include/linux/perf_event.h' line='795' column='1'/>
+          <var-decl name='pmu' type-id='0906f5b9' visibility='default' filepath='include/linux/perf_event.h' line='796' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='lock' type-id='f5c90b3f' visibility='default' filepath='include/linux/perf_event.h' line='800' column='1'/>
+          <var-decl name='lock' type-id='f5c90b3f' visibility='default' filepath='include/linux/perf_event.h' line='801' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='mutex' type-id='925167dc' visibility='default' filepath='include/linux/perf_event.h' line='806' column='1'/>
+          <var-decl name='mutex' type-id='925167dc' visibility='default' filepath='include/linux/perf_event.h' line='807' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='384'>
-          <var-decl name='active_ctx_list' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='808' column='1'/>
+          <var-decl name='active_ctx_list' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='809' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='512'>
-          <var-decl name='pinned_groups' type-id='3643bc2a' visibility='default' filepath='include/linux/perf_event.h' line='809' column='1'/>
+          <var-decl name='pinned_groups' type-id='3643bc2a' visibility='default' filepath='include/linux/perf_event.h' line='810' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='640'>
-          <var-decl name='flexible_groups' type-id='3643bc2a' visibility='default' filepath='include/linux/perf_event.h' line='810' column='1'/>
+          <var-decl name='flexible_groups' type-id='3643bc2a' visibility='default' filepath='include/linux/perf_event.h' line='811' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='768'>
-          <var-decl name='event_list' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='811' column='1'/>
+          <var-decl name='event_list' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='812' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='896'>
-          <var-decl name='pinned_active' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='813' column='1'/>
+          <var-decl name='pinned_active' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='814' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1024'>
-          <var-decl name='flexible_active' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='814' column='1'/>
+          <var-decl name='flexible_active' type-id='72f469ec' visibility='default' filepath='include/linux/perf_event.h' line='815' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1152'>
-          <var-decl name='nr_events' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='816' column='1'/>
+          <var-decl name='nr_events' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='817' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1184'>
-          <var-decl name='nr_active' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='817' column='1'/>
+          <var-decl name='nr_active' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='818' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1216'>
-          <var-decl name='is_active' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='818' column='1'/>
+          <var-decl name='is_active' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='819' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1248'>
-          <var-decl name='nr_stat' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='819' column='1'/>
+          <var-decl name='nr_stat' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='820' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1280'>
-          <var-decl name='nr_freq' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='820' column='1'/>
+          <var-decl name='nr_freq' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='821' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1312'>
-          <var-decl name='rotate_disable' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='821' column='1'/>
+          <var-decl name='rotate_disable' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='822' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1344'>
-          <var-decl name='rotate_necessary' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='826' column='1'/>
+          <var-decl name='rotate_necessary' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='827' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1376'>
-          <var-decl name='refcount' type-id='64615833' visibility='default' filepath='include/linux/perf_event.h' line='827' column='1'/>
+          <var-decl name='refcount' type-id='64615833' visibility='default' filepath='include/linux/perf_event.h' line='828' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1408'>
-          <var-decl name='task' type-id='f23e2572' visibility='default' filepath='include/linux/perf_event.h' line='828' column='1'/>
+          <var-decl name='task' type-id='f23e2572' visibility='default' filepath='include/linux/perf_event.h' line='829' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1472'>
-          <var-decl name='time' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='833' column='1'/>
+          <var-decl name='time' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='834' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1536'>
-          <var-decl name='timestamp' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='834' column='1'/>
+          <var-decl name='timestamp' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='835' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1600'>
-          <var-decl name='parent_ctx' type-id='b9419dc5' visibility='default' filepath='include/linux/perf_event.h' line='840' column='1'/>
+          <var-decl name='parent_ctx' type-id='b9419dc5' visibility='default' filepath='include/linux/perf_event.h' line='841' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1664'>
-          <var-decl name='parent_gen' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='841' column='1'/>
+          <var-decl name='parent_gen' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='842' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1728'>
-          <var-decl name='generation' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='842' column='1'/>
+          <var-decl name='generation' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='843' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1792'>
-          <var-decl name='pin_count' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='843' column='1'/>
+          <var-decl name='pin_count' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='844' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1856'>
-          <var-decl name='task_ctx_data' type-id='eaa32e2f' visibility='default' filepath='include/linux/perf_event.h' line='847' column='1'/>
+          <var-decl name='task_ctx_data' type-id='eaa32e2f' visibility='default' filepath='include/linux/perf_event.h' line='848' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1920'>
-          <var-decl name='callback_head' type-id='e3d8ce29' visibility='default' filepath='include/linux/perf_event.h' line='848' column='1'/>
+          <var-decl name='callback_head' type-id='e3d8ce29' visibility='default' filepath='include/linux/perf_event.h' line='849' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='perf_event_groups' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='784' column='1' id='3643bc2a'>
+      <class-decl name='perf_event_groups' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='785' column='1' id='3643bc2a'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='tree' type-id='dec44472' visibility='default' filepath='include/linux/perf_event.h' line='785' column='1'/>
+          <var-decl name='tree' type-id='dec44472' visibility='default' filepath='include/linux/perf_event.h' line='786' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='index' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='786' column='1'/>
+          <var-decl name='index' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='787' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='rb_root' size-in-bits='64' is-struct='yes' visibility='default' filepath='include/linux/rbtree.h' line='31' column='1' id='dec44472'>
@@ -8765,12 +8768,12 @@
           <var-decl name='next' type-id='b16791f0' visibility='default' filepath='include/linux/sched.h' line='649' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='bio_list' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/bio.h' line='556' column='1' id='096280be'>
+      <class-decl name='bio_list' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/bio.h' line='554' column='1' id='096280be'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='head' type-id='fb55efa1' visibility='default' filepath='include/linux/bio.h' line='557' column='1'/>
+          <var-decl name='head' type-id='fb55efa1' visibility='default' filepath='include/linux/bio.h' line='555' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='tail' type-id='fb55efa1' visibility='default' filepath='include/linux/bio.h' line='558' column='1'/>
+          <var-decl name='tail' type-id='fb55efa1' visibility='default' filepath='include/linux/bio.h' line='556' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='bio' size-in-bits='1152' is-struct='yes' visibility='default' filepath='include/linux/blk_types.h' line='205' column='1' id='f3e87129'>
@@ -10293,30 +10296,30 @@
           <var-decl name='padding' type-id='3f1a6b60' visibility='default' filepath='include/uapi/linux/bsg.h' line='63' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='bio_set' size-in-bits='1792' is-struct='yes' visibility='default' filepath='include/linux/bio.h' line='684' column='1' id='dfa886b2'>
+      <class-decl name='bio_set' size-in-bits='1792' is-struct='yes' visibility='default' filepath='include/linux/bio.h' line='682' column='1' id='dfa886b2'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='bio_slab' type-id='f3b4aca8' visibility='default' filepath='include/linux/bio.h' line='685' column='1'/>
+          <var-decl name='bio_slab' type-id='f3b4aca8' visibility='default' filepath='include/linux/bio.h' line='683' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='front_pad' type-id='f0981eeb' visibility='default' filepath='include/linux/bio.h' line='686' column='1'/>
+          <var-decl name='front_pad' type-id='f0981eeb' visibility='default' filepath='include/linux/bio.h' line='684' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='bio_pool' type-id='2745fad8' visibility='default' filepath='include/linux/bio.h' line='688' column='1'/>
+          <var-decl name='bio_pool' type-id='2745fad8' visibility='default' filepath='include/linux/bio.h' line='686' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='704'>
-          <var-decl name='bvec_pool' type-id='2745fad8' visibility='default' filepath='include/linux/bio.h' line='689' column='1'/>
+          <var-decl name='bvec_pool' type-id='2745fad8' visibility='default' filepath='include/linux/bio.h' line='687' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1280'>
-          <var-decl name='rescue_lock' type-id='fb4018a0' visibility='default' filepath='include/linux/bio.h' line='699' column='1'/>
+          <var-decl name='rescue_lock' type-id='fb4018a0' visibility='default' filepath='include/linux/bio.h' line='697' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1344'>
-          <var-decl name='rescue_list' type-id='096280be' visibility='default' filepath='include/linux/bio.h' line='700' column='1'/>
+          <var-decl name='rescue_list' type-id='096280be' visibility='default' filepath='include/linux/bio.h' line='698' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1472'>
-          <var-decl name='rescue_work' type-id='ef9025d0' visibility='default' filepath='include/linux/bio.h' line='701' column='1'/>
+          <var-decl name='rescue_work' type-id='ef9025d0' visibility='default' filepath='include/linux/bio.h' line='699' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1728'>
-          <var-decl name='rescue_workqueue' type-id='242e3d19' visibility='default' filepath='include/linux/bio.h' line='702' column='1'/>
+          <var-decl name='rescue_workqueue' type-id='242e3d19' visibility='default' filepath='include/linux/bio.h' line='700' column='1'/>
         </data-member>
       </class-decl>
       <typedef-decl name='mempool_t' type-id='5932767e' filepath='include/linux/mempool.h' line='26' column='1' id='2745fad8'/>
@@ -11084,35 +11087,35 @@
           <var-decl name='reserved' type-id='64acd4ce' visibility='default' filepath='arch/x86/include/asm/fpu/types.h' line='271' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='perf_output_handle' size-in-bits='448' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='889' column='1' id='98bc2b95'>
+      <class-decl name='perf_output_handle' size-in-bits='448' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='890' column='1' id='98bc2b95'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='event' type-id='2bf16f59' visibility='default' filepath='include/linux/perf_event.h' line='890' column='1'/>
+          <var-decl name='event' type-id='2bf16f59' visibility='default' filepath='include/linux/perf_event.h' line='891' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='rb' type-id='35b814e1' visibility='default' filepath='include/linux/perf_event.h' line='891' column='1'/>
+          <var-decl name='rb' type-id='35b814e1' visibility='default' filepath='include/linux/perf_event.h' line='892' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='wakeup' type-id='7359adad' visibility='default' filepath='include/linux/perf_event.h' line='892' column='1'/>
+          <var-decl name='wakeup' type-id='7359adad' visibility='default' filepath='include/linux/perf_event.h' line='893' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='192'>
-          <var-decl name='size' type-id='7359adad' visibility='default' filepath='include/linux/perf_event.h' line='893' column='1'/>
+          <var-decl name='size' type-id='7359adad' visibility='default' filepath='include/linux/perf_event.h' line='894' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='256'>
-          <var-decl name='aux_flags' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='894' column='1'/>
+          <var-decl name='aux_flags' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='895' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='320'>
-          <var-decl name='' type-id='4e335919' visibility='default' filepath='include/linux/perf_event.h' line='895' column='1'/>
+          <var-decl name='' type-id='4e335919' visibility='default' filepath='include/linux/perf_event.h' line='896' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='384'>
-          <var-decl name='page' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='899' column='1'/>
+          <var-decl name='page' type-id='95e97e5e' visibility='default' filepath='include/linux/perf_event.h' line='900' column='1'/>
         </data-member>
       </class-decl>
-      <union-decl name='__anonymous_union__44' size-in-bits='64' is-anonymous='yes' visibility='default' filepath='include/linux/perf_event.h' line='895' column='1' id='4e335919'>
+      <union-decl name='__anonymous_union__44' size-in-bits='64' is-anonymous='yes' visibility='default' filepath='include/linux/perf_event.h' line='896' column='1' id='4e335919'>
         <data-member access='public'>
-          <var-decl name='addr' type-id='eaa32e2f' visibility='default' filepath='include/linux/perf_event.h' line='896' column='1'/>
+          <var-decl name='addr' type-id='eaa32e2f' visibility='default' filepath='include/linux/perf_event.h' line='897' column='1'/>
         </data-member>
         <data-member access='public'>
-          <var-decl name='head' type-id='7359adad' visibility='default' filepath='include/linux/perf_event.h' line='897' column='1'/>
+          <var-decl name='head' type-id='7359adad' visibility='default' filepath='include/linux/perf_event.h' line='898' column='1'/>
         </data-member>
       </union-decl>
       <enum-decl name='perf_event_state' filepath='include/linux/perf_event.h' line='566' column='1' id='31fdb95a'>
@@ -11593,69 +11596,69 @@
         </data-member>
       </class-decl>
       <typedef-decl name='perf_overflow_handler_t' type-id='a8564695' filepath='include/linux/perf_event.h' line='578' column='1' id='20a2e4e6'/>
-      <class-decl name='perf_sample_data' size-in-bits='1536' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='994' column='1' id='2b3d4ba2'>
+      <class-decl name='perf_sample_data' size-in-bits='1536' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='995' column='1' id='2b3d4ba2'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='addr' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='999' column='1'/>
+          <var-decl name='addr' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1000' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='raw' type-id='f4a67529' visibility='default' filepath='include/linux/perf_event.h' line='1000' column='1'/>
+          <var-decl name='raw' type-id='f4a67529' visibility='default' filepath='include/linux/perf_event.h' line='1001' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='br_stack' type-id='070ae8d2' visibility='default' filepath='include/linux/perf_event.h' line='1001' column='1'/>
+          <var-decl name='br_stack' type-id='070ae8d2' visibility='default' filepath='include/linux/perf_event.h' line='1002' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='192'>
-          <var-decl name='period' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1002' column='1'/>
+          <var-decl name='period' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1003' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='256'>
-          <var-decl name='weight' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1003' column='1'/>
+          <var-decl name='weight' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1004' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='320'>
-          <var-decl name='txn' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1004' column='1'/>
+          <var-decl name='txn' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1005' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='384'>
-          <var-decl name='data_src' type-id='2be3cc53' visibility='default' filepath='include/linux/perf_event.h' line='1005' column='1'/>
+          <var-decl name='data_src' type-id='2be3cc53' visibility='default' filepath='include/linux/perf_event.h' line='1006' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='448'>
-          <var-decl name='type' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1011' column='1'/>
+          <var-decl name='type' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1012' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='512'>
-          <var-decl name='ip' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1012' column='1'/>
+          <var-decl name='ip' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1013' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='576'>
-          <var-decl name='tid_entry' type-id='0e48f9a5' visibility='default' filepath='include/linux/perf_event.h' line='1016' column='1'/>
+          <var-decl name='tid_entry' type-id='0e48f9a5' visibility='default' filepath='include/linux/perf_event.h' line='1017' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='640'>
-          <var-decl name='time' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1017' column='1'/>
+          <var-decl name='time' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1018' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='704'>
-          <var-decl name='id' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1018' column='1'/>
+          <var-decl name='id' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1019' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='768'>
-          <var-decl name='stream_id' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1019' column='1'/>
+          <var-decl name='stream_id' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1020' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='832'>
-          <var-decl name='cpu_entry' type-id='3851c7bb' visibility='default' filepath='include/linux/perf_event.h' line='1023' column='1'/>
+          <var-decl name='cpu_entry' type-id='3851c7bb' visibility='default' filepath='include/linux/perf_event.h' line='1024' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='896'>
-          <var-decl name='callchain' type-id='cd3a82e3' visibility='default' filepath='include/linux/perf_event.h' line='1024' column='1'/>
+          <var-decl name='callchain' type-id='cd3a82e3' visibility='default' filepath='include/linux/perf_event.h' line='1025' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='960'>
-          <var-decl name='aux_size' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1025' column='1'/>
+          <var-decl name='aux_size' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1026' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1024'>
-          <var-decl name='regs_user' type-id='85b37ab4' visibility='default' filepath='include/linux/perf_event.h' line='1027' column='1'/>
+          <var-decl name='regs_user' type-id='85b37ab4' visibility='default' filepath='include/linux/perf_event.h' line='1028' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1152'>
-          <var-decl name='regs_intr' type-id='85b37ab4' visibility='default' filepath='include/linux/perf_event.h' line='1028' column='1'/>
+          <var-decl name='regs_intr' type-id='85b37ab4' visibility='default' filepath='include/linux/perf_event.h' line='1029' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1280'>
-          <var-decl name='stack_user_size' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1029' column='1'/>
+          <var-decl name='stack_user_size' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1030' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1344'>
-          <var-decl name='phys_addr' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1031' column='1'/>
+          <var-decl name='phys_addr' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1032' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1408'>
-          <var-decl name='cgroup' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1032' column='1'/>
+          <var-decl name='cgroup' type-id='91ce1af9' visibility='default' filepath='include/linux/perf_event.h' line='1033' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='perf_raw_record' size-in-bits='256' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='88' column='1' id='40ea9ac1'>
@@ -11766,20 +11769,20 @@
           <var-decl name='mem_rsvd' type-id='d3130597' visibility='default' filepath='include/uapi/linux/perf_event.h' line='1131' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='__anonymous_struct__68' size-in-bits='64' is-struct='yes' is-anonymous='yes' visibility='default' filepath='include/linux/perf_event.h' line='1013' column='1' id='0e48f9a5'>
+      <class-decl name='__anonymous_struct__68' size-in-bits='64' is-struct='yes' is-anonymous='yes' visibility='default' filepath='include/linux/perf_event.h' line='1014' column='1' id='0e48f9a5'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='pid' type-id='19c2251e' visibility='default' filepath='include/linux/perf_event.h' line='1014' column='1'/>
+          <var-decl name='pid' type-id='19c2251e' visibility='default' filepath='include/linux/perf_event.h' line='1015' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='32'>
-          <var-decl name='tid' type-id='19c2251e' visibility='default' filepath='include/linux/perf_event.h' line='1015' column='1'/>
+          <var-decl name='tid' type-id='19c2251e' visibility='default' filepath='include/linux/perf_event.h' line='1016' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='__anonymous_struct__69' size-in-bits='64' is-struct='yes' is-anonymous='yes' visibility='default' filepath='include/linux/perf_event.h' line='1020' column='1' id='3851c7bb'>
+      <class-decl name='__anonymous_struct__69' size-in-bits='64' is-struct='yes' is-anonymous='yes' visibility='default' filepath='include/linux/perf_event.h' line='1021' column='1' id='3851c7bb'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='cpu' type-id='19c2251e' visibility='default' filepath='include/linux/perf_event.h' line='1021' column='1'/>
+          <var-decl name='cpu' type-id='19c2251e' visibility='default' filepath='include/linux/perf_event.h' line='1022' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='32'>
-          <var-decl name='reserved' type-id='19c2251e' visibility='default' filepath='include/linux/perf_event.h' line='1022' column='1'/>
+          <var-decl name='reserved' type-id='19c2251e' visibility='default' filepath='include/linux/perf_event.h' line='1023' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='perf_callchain_entry' size-in-bits='64' is-struct='yes' visibility='default' filepath='include/linux/perf_event.h' line='62' column='1' id='16650a93'>
