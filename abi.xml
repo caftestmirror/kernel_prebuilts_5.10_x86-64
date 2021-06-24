@@ -148,6 +148,8 @@
       <elf-symbol name='__SCT__tp_func_android_vh_exclude_reserved_zone' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe60a6f87'/>
       <elf-symbol name='__SCT__tp_func_android_vh_exit_creds' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6f58fc71'/>
       <elf-symbol name='__SCT__tp_func_android_vh_exit_mm' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x830bc961'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_filemap_fault_cache_page' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x32e8c3f8'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_filemap_fault_get_page' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xeea6e84b'/>
       <elf-symbol name='__SCT__tp_func_android_vh_fill_ext_fmtdesc' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa589fe4f'/>
       <elf-symbol name='__SCT__tp_func_android_vh_finish_update_load_avg_se' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd3e19615'/>
       <elf-symbol name='__SCT__tp_func_android_vh_force_compatible_post' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6e0a842c'/>
@@ -5678,64 +5680,64 @@
           <var-decl name='rb_subtree_last' type-id='7359adad' visibility='default' filepath='include/linux/mm_types.h' line='350' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='vm_operations_struct' size-in-bits='1152' is-struct='yes' visibility='default' filepath='include/linux/mm.h' line='590' column='1' id='19795245'>
+      <class-decl name='vm_operations_struct' size-in-bits='1152' is-struct='yes' visibility='default' filepath='include/linux/mm.h' line='591' column='1' id='19795245'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='open' type-id='170cc62f' visibility='default' filepath='include/linux/mm.h' line='591' column='1'/>
+          <var-decl name='open' type-id='170cc62f' visibility='default' filepath='include/linux/mm.h' line='592' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='close' type-id='170cc62f' visibility='default' filepath='include/linux/mm.h' line='592' column='1'/>
+          <var-decl name='close' type-id='170cc62f' visibility='default' filepath='include/linux/mm.h' line='593' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='split' type-id='6910c028' visibility='default' filepath='include/linux/mm.h' line='593' column='1'/>
+          <var-decl name='split' type-id='6910c028' visibility='default' filepath='include/linux/mm.h' line='594' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='192'>
-          <var-decl name='mremap' type-id='6e731d78' visibility='default' filepath='include/linux/mm.h' line='594' column='1'/>
+          <var-decl name='mremap' type-id='6e731d78' visibility='default' filepath='include/linux/mm.h' line='595' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='256'>
-          <var-decl name='fault' type-id='bb28da1c' visibility='default' filepath='include/linux/mm.h' line='595' column='1'/>
+          <var-decl name='fault' type-id='bb28da1c' visibility='default' filepath='include/linux/mm.h' line='596' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='320'>
-          <var-decl name='huge_fault' type-id='5e15576d' visibility='default' filepath='include/linux/mm.h' line='596' column='1'/>
+          <var-decl name='huge_fault' type-id='5e15576d' visibility='default' filepath='include/linux/mm.h' line='597' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='384'>
-          <var-decl name='map_pages' type-id='d04132fc' visibility='default' filepath='include/linux/mm.h' line='598' column='1'/>
+          <var-decl name='map_pages' type-id='d04132fc' visibility='default' filepath='include/linux/mm.h' line='599' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='448'>
-          <var-decl name='pagesize' type-id='1a17e40d' visibility='default' filepath='include/linux/mm.h' line='600' column='1'/>
+          <var-decl name='pagesize' type-id='1a17e40d' visibility='default' filepath='include/linux/mm.h' line='601' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='512'>
-          <var-decl name='page_mkwrite' type-id='bb28da1c' visibility='default' filepath='include/linux/mm.h' line='604' column='1'/>
+          <var-decl name='page_mkwrite' type-id='bb28da1c' visibility='default' filepath='include/linux/mm.h' line='605' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='576'>
-          <var-decl name='pfn_mkwrite' type-id='bb28da1c' visibility='default' filepath='include/linux/mm.h' line='607' column='1'/>
+          <var-decl name='pfn_mkwrite' type-id='bb28da1c' visibility='default' filepath='include/linux/mm.h' line='608' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='640'>
-          <var-decl name='access' type-id='6850e780' visibility='default' filepath='include/linux/mm.h' line='612' column='1'/>
+          <var-decl name='access' type-id='6850e780' visibility='default' filepath='include/linux/mm.h' line='613' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='704'>
-          <var-decl name='name' type-id='e803acd0' visibility='default' filepath='include/linux/mm.h' line='618' column='1'/>
+          <var-decl name='name' type-id='e803acd0' visibility='default' filepath='include/linux/mm.h' line='619' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='768'>
-          <var-decl name='find_special_page' type-id='d9e60bb2' visibility='default' filepath='include/linux/mm.h' line='648' column='1'/>
+          <var-decl name='find_special_page' type-id='d9e60bb2' visibility='default' filepath='include/linux/mm.h' line='649' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='832'>
-          <var-decl name='allow_speculation' type-id='d4ae3f3f' visibility='default' filepath='include/linux/mm.h' line='652' column='1'/>
+          <var-decl name='allow_speculation' type-id='d4ae3f3f' visibility='default' filepath='include/linux/mm.h' line='653' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='896'>
-          <var-decl name='android_kabi_reserved1' type-id='91ce1af9' visibility='default' filepath='include/linux/mm.h' line='655' column='1'/>
+          <var-decl name='android_kabi_reserved1' type-id='91ce1af9' visibility='default' filepath='include/linux/mm.h' line='656' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='960'>
-          <var-decl name='android_kabi_reserved2' type-id='91ce1af9' visibility='default' filepath='include/linux/mm.h' line='656' column='1'/>
+          <var-decl name='android_kabi_reserved2' type-id='91ce1af9' visibility='default' filepath='include/linux/mm.h' line='657' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1024'>
-          <var-decl name='android_kabi_reserved3' type-id='91ce1af9' visibility='default' filepath='include/linux/mm.h' line='657' column='1'/>
+          <var-decl name='android_kabi_reserved3' type-id='91ce1af9' visibility='default' filepath='include/linux/mm.h' line='658' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1088'>
-          <var-decl name='android_kabi_reserved4' type-id='91ce1af9' visibility='default' filepath='include/linux/mm.h' line='658' column='1'/>
+          <var-decl name='android_kabi_reserved4' type-id='91ce1af9' visibility='default' filepath='include/linux/mm.h' line='659' column='1'/>
         </data-member>
       </class-decl>
       <typedef-decl name='vm_fault_t' type-id='f0981eeb' filepath='include/linux/mm_types.h' line='711' column='1' id='e9265215'/>
-      <class-decl name='vm_fault' size-in-bits='1088' is-struct='yes' visibility='default' filepath='include/linux/mm.h' line='528' column='1' id='807afe73'>
+      <class-decl name='vm_fault' size-in-bits='1216' is-struct='yes' visibility='default' filepath='include/linux/mm.h' line='528' column='1' id='807afe73'>
         <data-member access='public' layout-offset-in-bits='0'>
           <var-decl name='sequence' type-id='f0981eeb' visibility='default' filepath='include/linux/mm.h' line='530' column='1'/>
         </data-member>
@@ -5777,6 +5779,9 @@
         </data-member>
         <data-member access='public' layout-offset-in-bits='1024'>
           <var-decl name='vma_page_prot' type-id='2e2dcbd3' visibility='default' filepath='include/linux/mm.h' line='575' column='1'/>
+        </data-member>
+        <data-member access='public' layout-offset-in-bits='1088'>
+          <var-decl name='android_oem_data1' type-id='24a375b2' visibility='default' filepath='include/linux/mm.h' line='576' column='1'/>
         </data-member>
       </class-decl>
       <typedef-decl name='pmd_t' type-id='ed9a87e0' filepath='arch/x86/include/asm/pgtable_types.h' line='385' column='1' id='9ecf9226'/>
@@ -6412,7 +6417,7 @@
           <var-decl name='units' type-id='95e97e5e' visibility='default' filepath='include/linux/mm_types.h' line='198' column='1'/>
         </data-member>
       </union-decl>
-      <enum-decl name='page_entry_size' filepath='include/linux/mm.h' line='579' column='1' id='5555b4b4'>
+      <enum-decl name='page_entry_size' filepath='include/linux/mm.h' line='580' column='1' id='5555b4b4'>
         <underlying-type type-id='9cac1fee'/>
         <enumerator name='PE_SIZE_PTE' value='0'/>
         <enumerator name='PE_SIZE_PMD' value='1'/>
