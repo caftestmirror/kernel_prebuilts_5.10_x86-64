@@ -6067,21 +6067,21 @@
         <enumerator name='WB_SYNC_NONE' value='0'/>
         <enumerator name='WB_SYNC_ALL' value='1'/>
       </enum-decl>
-      <class-decl name='readahead_control' size-in-bits='256' is-struct='yes' visibility='default' filepath='include/linux/pagemap.h' line='792' column='1' id='c7d5925c'>
+      <class-decl name='readahead_control' size-in-bits='256' is-struct='yes' visibility='default' filepath='include/linux/pagemap.h' line='793' column='1' id='c7d5925c'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='file' type-id='77e79a4b' visibility='default' filepath='include/linux/pagemap.h' line='793' column='1'/>
+          <var-decl name='file' type-id='77e79a4b' visibility='default' filepath='include/linux/pagemap.h' line='794' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='mapping' type-id='f57039f0' visibility='default' filepath='include/linux/pagemap.h' line='794' column='1'/>
+          <var-decl name='mapping' type-id='f57039f0' visibility='default' filepath='include/linux/pagemap.h' line='795' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='_index' type-id='7359adad' visibility='default' filepath='include/linux/pagemap.h' line='796' column='1'/>
+          <var-decl name='_index' type-id='7359adad' visibility='default' filepath='include/linux/pagemap.h' line='797' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='192'>
-          <var-decl name='_nr_pages' type-id='f0981eeb' visibility='default' filepath='include/linux/pagemap.h' line='797' column='1'/>
+          <var-decl name='_nr_pages' type-id='f0981eeb' visibility='default' filepath='include/linux/pagemap.h' line='798' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='224'>
-          <var-decl name='_batch_count' type-id='f0981eeb' visibility='default' filepath='include/linux/pagemap.h' line='798' column='1'/>
+          <var-decl name='_batch_count' type-id='f0981eeb' visibility='default' filepath='include/linux/pagemap.h' line='799' column='1'/>
         </data-member>
       </class-decl>
       <typedef-decl name='sector_t' type-id='91ce1af9' filepath='include/linux/types.h' line='125' column='1' id='a42536cd'/>
@@ -6119,15 +6119,15 @@
           <var-decl name='ki_waitq' type-id='4be56288' visibility='default' filepath='include/linux/fs.h' line='334' column='1'/>
         </data-member>
       </union-decl>
-      <class-decl name='wait_page_queue' size-in-bits='448' is-struct='yes' visibility='default' filepath='include/linux/pagemap.h' line='566' column='1' id='7bb07bfa'>
+      <class-decl name='wait_page_queue' size-in-bits='448' is-struct='yes' visibility='default' filepath='include/linux/pagemap.h' line='567' column='1' id='7bb07bfa'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='page' type-id='02f11ed4' visibility='default' filepath='include/linux/pagemap.h' line='567' column='1'/>
+          <var-decl name='page' type-id='02f11ed4' visibility='default' filepath='include/linux/pagemap.h' line='568' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='bit_nr' type-id='95e97e5e' visibility='default' filepath='include/linux/pagemap.h' line='568' column='1'/>
+          <var-decl name='bit_nr' type-id='95e97e5e' visibility='default' filepath='include/linux/pagemap.h' line='569' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='wait' type-id='fe794aa9' visibility='default' filepath='include/linux/pagemap.h' line='569' column='1'/>
+          <var-decl name='wait' type-id='fe794aa9' visibility='default' filepath='include/linux/pagemap.h' line='570' column='1'/>
         </data-member>
       </class-decl>
       <typedef-decl name='wait_queue_entry_t' type-id='504855b3' filepath='include/linux/wait.h' line='14' column='1' id='fe794aa9'/>
