@@ -7278,7 +7278,7 @@
           <var-decl name='scheduled' type-id='f0981eeb' visibility='default' filepath='include/linux/posix-timers.h' line='136' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='cred' size-in-bits='1344' is-struct='yes' visibility='default' filepath='include/linux/cred.h' line='111' column='1' id='6739dd09'>
+      <class-decl name='cred' size-in-bits='1408' is-struct='yes' visibility='default' filepath='include/linux/cred.h' line='111' column='1' id='6739dd09'>
         <data-member access='public' layout-offset-in-bits='0'>
           <var-decl name='usage' type-id='49178f86' visibility='default' filepath='include/linux/cred.h' line='112' column='1'/>
         </data-member>
@@ -7349,10 +7349,13 @@
           <var-decl name='user_ns' type-id='c0ced320' visibility='default' filepath='include/linux/cred.h' line='146' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1152'>
-          <var-decl name='group_info' type-id='383471a1' visibility='default' filepath='include/linux/cred.h' line='147' column='1'/>
+          <var-decl name='ucounts' type-id='b1d4934a' visibility='default' filepath='include/linux/cred.h' line='147' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1216'>
-          <var-decl name='' type-id='0a97cc35' visibility='default' filepath='include/linux/cred.h' line='149' column='1'/>
+          <var-decl name='group_info' type-id='383471a1' visibility='default' filepath='include/linux/cred.h' line='148' column='1'/>
+        </data-member>
+        <data-member access='public' layout-offset-in-bits='1280'>
+          <var-decl name='' type-id='0a97cc35' visibility='default' filepath='include/linux/cred.h' line='150' column='1'/>
         </data-member>
       </class-decl>
       <typedef-decl name='kernel_cap_t' type-id='923128a5' filepath='include/linux/capability.h' line='26' column='1' id='7496b151'/>
@@ -7433,12 +7436,12 @@
           <var-decl name='gid' type-id='da6e2919' visibility='default' filepath='include/linux/cred.h' line='28' column='1'/>
         </data-member>
       </class-decl>
-      <union-decl name='__anonymous_union__29' size-in-bits='128' is-anonymous='yes' visibility='default' filepath='include/linux/cred.h' line='149' column='1' id='0a97cc35'>
+      <union-decl name='__anonymous_union__29' size-in-bits='128' is-anonymous='yes' visibility='default' filepath='include/linux/cred.h' line='150' column='1' id='0a97cc35'>
         <data-member access='public'>
-          <var-decl name='non_rcu' type-id='95e97e5e' visibility='default' filepath='include/linux/cred.h' line='150' column='1'/>
+          <var-decl name='non_rcu' type-id='95e97e5e' visibility='default' filepath='include/linux/cred.h' line='151' column='1'/>
         </data-member>
         <data-member access='public'>
-          <var-decl name='rcu' type-id='e3d8ce29' visibility='default' filepath='include/linux/cred.h' line='151' column='1'/>
+          <var-decl name='rcu' type-id='e3d8ce29' visibility='default' filepath='include/linux/cred.h' line='152' column='1'/>
         </data-member>
       </union-decl>
       <class-decl name='nsproxy' size-in-bits='576' is-struct='yes' visibility='default' filepath='include/linux/nsproxy.h' line='31' column='1' id='b82b9d3a'>
@@ -8828,12 +8831,12 @@
           <var-decl name='next' type-id='b16791f0' visibility='default' filepath='include/linux/sched.h' line='657' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='bio_list' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/bio.h' line='554' column='1' id='096280be'>
+      <class-decl name='bio_list' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/bio.h' line='550' column='1' id='096280be'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='head' type-id='fb55efa1' visibility='default' filepath='include/linux/bio.h' line='555' column='1'/>
+          <var-decl name='head' type-id='fb55efa1' visibility='default' filepath='include/linux/bio.h' line='551' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='tail' type-id='fb55efa1' visibility='default' filepath='include/linux/bio.h' line='556' column='1'/>
+          <var-decl name='tail' type-id='fb55efa1' visibility='default' filepath='include/linux/bio.h' line='552' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='bio' size-in-bits='1152' is-struct='yes' visibility='default' filepath='include/linux/blk_types.h' line='205' column='1' id='f3e87129'>
@@ -10353,30 +10356,30 @@
           <var-decl name='padding' type-id='3f1a6b60' visibility='default' filepath='include/uapi/linux/bsg.h' line='63' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='bio_set' size-in-bits='1792' is-struct='yes' visibility='default' filepath='include/linux/bio.h' line='682' column='1' id='dfa886b2'>
+      <class-decl name='bio_set' size-in-bits='1792' is-struct='yes' visibility='default' filepath='include/linux/bio.h' line='678' column='1' id='dfa886b2'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='bio_slab' type-id='f3b4aca8' visibility='default' filepath='include/linux/bio.h' line='683' column='1'/>
+          <var-decl name='bio_slab' type-id='f3b4aca8' visibility='default' filepath='include/linux/bio.h' line='679' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='front_pad' type-id='f0981eeb' visibility='default' filepath='include/linux/bio.h' line='684' column='1'/>
+          <var-decl name='front_pad' type-id='f0981eeb' visibility='default' filepath='include/linux/bio.h' line='680' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='bio_pool' type-id='2745fad8' visibility='default' filepath='include/linux/bio.h' line='686' column='1'/>
+          <var-decl name='bio_pool' type-id='2745fad8' visibility='default' filepath='include/linux/bio.h' line='682' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='704'>
-          <var-decl name='bvec_pool' type-id='2745fad8' visibility='default' filepath='include/linux/bio.h' line='687' column='1'/>
+          <var-decl name='bvec_pool' type-id='2745fad8' visibility='default' filepath='include/linux/bio.h' line='683' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1280'>
-          <var-decl name='rescue_lock' type-id='fb4018a0' visibility='default' filepath='include/linux/bio.h' line='697' column='1'/>
+          <var-decl name='rescue_lock' type-id='fb4018a0' visibility='default' filepath='include/linux/bio.h' line='693' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1344'>
-          <var-decl name='rescue_list' type-id='096280be' visibility='default' filepath='include/linux/bio.h' line='698' column='1'/>
+          <var-decl name='rescue_list' type-id='096280be' visibility='default' filepath='include/linux/bio.h' line='694' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1472'>
-          <var-decl name='rescue_work' type-id='ef9025d0' visibility='default' filepath='include/linux/bio.h' line='699' column='1'/>
+          <var-decl name='rescue_work' type-id='ef9025d0' visibility='default' filepath='include/linux/bio.h' line='695' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1728'>
-          <var-decl name='rescue_workqueue' type-id='242e3d19' visibility='default' filepath='include/linux/bio.h' line='700' column='1'/>
+          <var-decl name='rescue_workqueue' type-id='242e3d19' visibility='default' filepath='include/linux/bio.h' line='696' column='1'/>
         </data-member>
       </class-decl>
       <typedef-decl name='mempool_t' type-id='5932767e' filepath='include/linux/mempool.h' line='26' column='1' id='2745fad8'/>
