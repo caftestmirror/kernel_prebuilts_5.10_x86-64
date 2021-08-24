@@ -47,6 +47,7 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_gic_v3_set_affinity' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa6d38bce'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_irqs_disable' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6769e7d5'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_irqs_enable' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x751f7668'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_media_device_setup_link' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcc689781'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_migrate_queued_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x10d13e99'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_new_task_stats' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3b673de8'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_nf_conn_alloc' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc9ddac28'/>
@@ -87,8 +88,12 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_set_task_cpu' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x29ddb332'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_set_user_nice' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7934ebfa'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_setscheduler' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xddd942ed'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_show_max_freq' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5cb01856'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_sk_alloc' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x88369c82'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_sk_free' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x99ae44e5'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_tcp_recvmsg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x28b3158c'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_tcp_recvmsg_stat' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa433f172'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_tcp_sendmsg_locked' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7efcd501'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_tick_entry' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x74bb05b6'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_try_to_wake_up' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x30b87b38'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_try_to_wake_up_success' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7016f012'/>
@@ -96,11 +101,16 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_typec_tcpci_chk_contaminant' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xafb568fc'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_typec_tcpci_get_vbus' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7bca8240'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_uclamp_eff_get' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd953365c'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_udp_recvmsg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x22e20e43'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_udp_sendmsg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x43a616fa'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_ufs_reprogram_all_keys' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3a9d39ea'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_cpu_capacity' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe66bf782'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_cpus_allowed' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6eae27b7'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_misfit_status' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x878ee7e1'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_util_est_update' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5e74a4ec'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_v4l2subdev_set_fmt' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8bbfc303'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_v4l2subdev_set_frame_interval' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3ae5ce07'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_v4l2subdev_set_selection' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x23cd0123'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_wake_up_new_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x709e1a5d'/>
       <elf-symbol name='__SCT__tp_func_android_vh_account_task_time' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe66d60dc'/>
       <elf-symbol name='__SCT__tp_func_android_vh_aes_decrypt' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa15672f6'/>
@@ -471,7 +481,6 @@
       <elf-symbol name='clear_page_erms' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9084b044'/>
       <elf-symbol name='clear_page_orig' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x925493f'/>
       <elf-symbol name='clear_page_rep' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x23b4e0d7'/>
-      <elf-symbol name='copy_mc_fragile' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x1f1ddd8d'/>
       <elf-symbol name='copy_page' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x33b84f74'/>
       <elf-symbol name='copy_user_enhanced_fast_string' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x26948d96'/>
       <elf-symbol name='copy_user_generic_string' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xafb8c6ff'/>
@@ -5071,54 +5080,33 @@
           <var-decl name='security' type-id='eaa32e2f' visibility='default' filepath='include/linux/sched.h' line='1354' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='22144'>
-          <var-decl name='mce_vaddr' type-id='eaa32e2f' visibility='default' filepath='include/linux/sched.h' line='1363' column='1'/>
-        </data-member>
-        <data-member access='public' layout-offset-in-bits='22208'>
-          <var-decl name='mce_kflags' type-id='d3130597' visibility='default' filepath='include/linux/sched.h' line='1364' column='1'/>
-        </data-member>
-        <data-member access='public' layout-offset-in-bits='22272'>
-          <var-decl name='mce_addr' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1365' column='1'/>
-        </data-member>
-        <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='mce_ripv' type-id='d3130597' visibility='default' filepath='include/linux/sched.h' line='1366' column='1'/>
-        </data-member>
-        <data-member access='public' layout-offset-in-bits='1'>
-          <var-decl name='mce_whole_page' type-id='d3130597' visibility='default' filepath='include/linux/sched.h' line='1367' column='1'/>
-        </data-member>
-        <data-member access='public' layout-offset-in-bits='2'>
-          <var-decl name='__mce_reserved' type-id='d3130597' visibility='default' filepath='include/linux/sched.h' line='1368' column='1'/>
-        </data-member>
-        <data-member access='public' layout-offset-in-bits='22400'>
-          <var-decl name='mce_kill_me' type-id='e3d8ce29' visibility='default' filepath='include/linux/sched.h' line='1369' column='1'/>
-        </data-member>
-        <data-member access='public' layout-offset-in-bits='22528'>
           <var-decl name='android_vendor_data1' type-id='4b516a9c' visibility='default' filepath='include/linux/sched.h' line='1371' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='26624'>
+        <data-member access='public' layout-offset-in-bits='26240'>
           <var-decl name='android_oem_data1' type-id='ef7c8fe9' visibility='default' filepath='include/linux/sched.h' line='1372' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='28672'>
+        <data-member access='public' layout-offset-in-bits='28288'>
           <var-decl name='android_kabi_reserved1' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1374' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='28736'>
+        <data-member access='public' layout-offset-in-bits='28352'>
           <var-decl name='android_kabi_reserved2' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1375' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='28800'>
+        <data-member access='public' layout-offset-in-bits='28416'>
           <var-decl name='android_kabi_reserved3' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1376' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='28864'>
+        <data-member access='public' layout-offset-in-bits='28480'>
           <var-decl name='android_kabi_reserved4' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1377' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='28928'>
+        <data-member access='public' layout-offset-in-bits='28544'>
           <var-decl name='android_kabi_reserved5' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1378' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='28992'>
+        <data-member access='public' layout-offset-in-bits='28608'>
           <var-decl name='android_kabi_reserved6' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1379' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='29056'>
+        <data-member access='public' layout-offset-in-bits='28672'>
           <var-decl name='android_kabi_reserved7' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1380' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='29120'>
+        <data-member access='public' layout-offset-in-bits='28736'>
           <var-decl name='android_kabi_reserved8' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1381' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='29184'>
@@ -17522,12 +17510,6 @@
         <return type-id='f0981eeb'/>
       </function-decl>
       <function-decl name='copy_mc_enhanced_fast_string' filepath='arch/x86/lib/copy_mc.c' line='48' column='1' visibility='default' binding='global' size-in-bits='64'>
-        <parameter type-id='eaa32e2f'/>
-        <parameter type-id='eaa32e2f'/>
-        <parameter type-id='f0981eeb'/>
-        <return type-id='7359adad'/>
-      </function-decl>
-      <function-decl name='copy_mc_fragile' filepath='arch/x86/include/asm/mce.h' line='195' column='1' visibility='default' binding='global' size-in-bits='64'>
         <parameter type-id='eaa32e2f'/>
         <parameter type-id='eaa32e2f'/>
         <parameter type-id='f0981eeb'/>
