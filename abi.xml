@@ -3974,43 +3974,43 @@
           <var-decl name='cgroup_storage' type-id='dcd9fb4c' visibility='default' filepath='include/linux/bpf.h' line='1060' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='bpf_cgroup_storage' size-in-bits='832' is-struct='yes' visibility='default' filepath='include/linux/bpf-cgroup.h' line='42' column='1' id='15881542'>
+      <class-decl name='bpf_cgroup_storage' size-in-bits='832' is-struct='yes' visibility='default' filepath='include/linux/bpf-cgroup.h' line='53' column='1' id='15881542'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='' type-id='dad3eb71' visibility='default' filepath='include/linux/bpf-cgroup.h' line='43' column='1'/>
+          <var-decl name='' type-id='dad3eb71' visibility='default' filepath='include/linux/bpf-cgroup.h' line='54' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='map' type-id='b6a33eaf' visibility='default' filepath='include/linux/bpf-cgroup.h' line='47' column='1'/>
+          <var-decl name='map' type-id='b6a33eaf' visibility='default' filepath='include/linux/bpf-cgroup.h' line='58' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='key' type-id='d8d7111e' visibility='default' filepath='include/linux/bpf-cgroup.h' line='48' column='1'/>
+          <var-decl name='key' type-id='d8d7111e' visibility='default' filepath='include/linux/bpf-cgroup.h' line='59' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='256'>
-          <var-decl name='list_map' type-id='72f469ec' visibility='default' filepath='include/linux/bpf-cgroup.h' line='49' column='1'/>
+          <var-decl name='list_map' type-id='72f469ec' visibility='default' filepath='include/linux/bpf-cgroup.h' line='60' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='384'>
-          <var-decl name='list_cg' type-id='72f469ec' visibility='default' filepath='include/linux/bpf-cgroup.h' line='50' column='1'/>
+          <var-decl name='list_cg' type-id='72f469ec' visibility='default' filepath='include/linux/bpf-cgroup.h' line='61' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='512'>
-          <var-decl name='node' type-id='2a8a6332' visibility='default' filepath='include/linux/bpf-cgroup.h' line='51' column='1'/>
+          <var-decl name='node' type-id='2a8a6332' visibility='default' filepath='include/linux/bpf-cgroup.h' line='62' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='704'>
-          <var-decl name='rcu' type-id='e3d8ce29' visibility='default' filepath='include/linux/bpf-cgroup.h' line='52' column='1'/>
+          <var-decl name='rcu' type-id='e3d8ce29' visibility='default' filepath='include/linux/bpf-cgroup.h' line='63' column='1'/>
         </data-member>
       </class-decl>
-      <union-decl name='__anonymous_union__9' size-in-bits='64' is-anonymous='yes' visibility='default' filepath='include/linux/bpf-cgroup.h' line='43' column='1' id='dad3eb71'>
+      <union-decl name='__anonymous_union__9' size-in-bits='64' is-anonymous='yes' visibility='default' filepath='include/linux/bpf-cgroup.h' line='54' column='1' id='dad3eb71'>
         <data-member access='public'>
-          <var-decl name='buf' type-id='b1253746' visibility='default' filepath='include/linux/bpf-cgroup.h' line='44' column='1'/>
+          <var-decl name='buf' type-id='b1253746' visibility='default' filepath='include/linux/bpf-cgroup.h' line='55' column='1'/>
         </data-member>
         <data-member access='public'>
-          <var-decl name='percpu_buf' type-id='eaa32e2f' visibility='default' filepath='include/linux/bpf-cgroup.h' line='45' column='1'/>
+          <var-decl name='percpu_buf' type-id='eaa32e2f' visibility='default' filepath='include/linux/bpf-cgroup.h' line='56' column='1'/>
         </data-member>
       </union-decl>
-      <class-decl name='bpf_storage_buffer' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/bpf-cgroup.h' line='37' column='1' id='0ef5c7e0'>
+      <class-decl name='bpf_storage_buffer' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/bpf-cgroup.h' line='48' column='1' id='0ef5c7e0'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='rcu' type-id='e3d8ce29' visibility='default' filepath='include/linux/bpf-cgroup.h' line='38' column='1'/>
+          <var-decl name='rcu' type-id='e3d8ce29' visibility='default' filepath='include/linux/bpf-cgroup.h' line='49' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='data' type-id='e84913bd' visibility='default' filepath='include/linux/bpf-cgroup.h' line='39' column='1'/>
+          <var-decl name='data' type-id='e84913bd' visibility='default' filepath='include/linux/bpf-cgroup.h' line='50' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='bpf_cgroup_storage_key' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/uapi/linux/bpf.h' line='79' column='1' id='d8d7111e'>
@@ -7247,27 +7247,27 @@
           <var-decl name='times_prev' type-id='4e00dfcd' visibility='default' filepath='include/linux/psi_types.h' line='85' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='cgroup_bpf' size-in-bits='9216' is-struct='yes' visibility='default' filepath='include/linux/bpf-cgroup.h' line='70' column='1' id='b80e3996'>
+      <class-decl name='cgroup_bpf' size-in-bits='9216' is-struct='yes' visibility='default' filepath='include/linux/bpf-cgroup.h' line='81' column='1' id='b80e3996'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='effective' type-id='dade5b69' visibility='default' filepath='include/linux/bpf-cgroup.h' line='72' column='1'/>
+          <var-decl name='effective' type-id='dade5b69' visibility='default' filepath='include/linux/bpf-cgroup.h' line='83' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2432'>
-          <var-decl name='progs' type-id='3b873ed1' visibility='default' filepath='include/linux/bpf-cgroup.h' line='79' column='1'/>
+          <var-decl name='progs' type-id='3b873ed1' visibility='default' filepath='include/linux/bpf-cgroup.h' line='90' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7296'>
-          <var-decl name='flags' type-id='69e7c260' visibility='default' filepath='include/linux/bpf-cgroup.h' line='80' column='1'/>
+          <var-decl name='flags' type-id='69e7c260' visibility='default' filepath='include/linux/bpf-cgroup.h' line='91' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='8512'>
-          <var-decl name='storages' type-id='72f469ec' visibility='default' filepath='include/linux/bpf-cgroup.h' line='83' column='1'/>
+          <var-decl name='storages' type-id='72f469ec' visibility='default' filepath='include/linux/bpf-cgroup.h' line='94' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='8640'>
-          <var-decl name='inactive' type-id='380c7edc' visibility='default' filepath='include/linux/bpf-cgroup.h' line='86' column='1'/>
+          <var-decl name='inactive' type-id='380c7edc' visibility='default' filepath='include/linux/bpf-cgroup.h' line='97' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='8704'>
-          <var-decl name='refcnt' type-id='818799b4' visibility='default' filepath='include/linux/bpf-cgroup.h' line='89' column='1'/>
+          <var-decl name='refcnt' type-id='818799b4' visibility='default' filepath='include/linux/bpf-cgroup.h' line='100' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='8832'>
-          <var-decl name='release_work' type-id='ef9025d0' visibility='default' filepath='include/linux/bpf-cgroup.h' line='92' column='1'/>
+          <var-decl name='release_work' type-id='ef9025d0' visibility='default' filepath='include/linux/bpf-cgroup.h' line='103' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='cgroup_freezer_state' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='338' column='1' id='ad50988b'>
