@@ -5076,37 +5076,37 @@
           <var-decl name='security' type-id='eaa32e2f' visibility='default' filepath='include/linux/sched.h' line='1362' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='22144'>
-          <var-decl name='android_vendor_data1' type-id='4b516a9c' visibility='default' filepath='include/linux/sched.h' line='1379' column='1'/>
+          <var-decl name='android_vendor_data1' type-id='4b516a9c' visibility='default' filepath='include/linux/sched.h' line='1380' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='26240'>
-          <var-decl name='android_oem_data1' type-id='ef7c8fe9' visibility='default' filepath='include/linux/sched.h' line='1380' column='1'/>
+          <var-decl name='android_oem_data1' type-id='ef7c8fe9' visibility='default' filepath='include/linux/sched.h' line='1381' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='28288'>
-          <var-decl name='android_kabi_reserved1' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1382' column='1'/>
+          <var-decl name='android_kabi_reserved1' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1383' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='28352'>
-          <var-decl name='android_kabi_reserved2' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1383' column='1'/>
+          <var-decl name='android_kabi_reserved2' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1384' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='28416'>
-          <var-decl name='android_kabi_reserved3' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1384' column='1'/>
+          <var-decl name='android_kabi_reserved3' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1385' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='28480'>
-          <var-decl name='android_kabi_reserved4' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1385' column='1'/>
+          <var-decl name='android_kabi_reserved4' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1386' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='28544'>
-          <var-decl name='android_kabi_reserved5' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1386' column='1'/>
+          <var-decl name='android_kabi_reserved5' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1387' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='28608'>
-          <var-decl name='android_kabi_reserved6' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1387' column='1'/>
+          <var-decl name='android_kabi_reserved6' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1388' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='28672'>
-          <var-decl name='android_kabi_reserved7' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1388' column='1'/>
+          <var-decl name='android_kabi_reserved7' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1389' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='28736'>
-          <var-decl name='android_kabi_reserved8' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1389' column='1'/>
+          <var-decl name='android_kabi_reserved8' type-id='91ce1af9' visibility='default' filepath='include/linux/sched.h' line='1390' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='29184'>
-          <var-decl name='thread' type-id='0c8a83c7' visibility='default' filepath='include/linux/sched.h' line='1398' column='1'/>
+          <var-decl name='thread' type-id='0c8a83c7' visibility='default' filepath='include/linux/sched.h' line='1399' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='thread_info' size-in-bits='128' is-struct='yes' visibility='default' filepath='arch/x86/include/asm/thread_info.h' line='56' column='1' id='575a2c7a'>
