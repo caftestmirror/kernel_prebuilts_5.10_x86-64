@@ -853,11 +853,11 @@
       <array-type-def dimensions='1' type-id='a3274c4b' size-in-bits='5120' id='8574e02e'>
         <subrange length='16' type-id='7ff19f0f' id='848d0938'/>
       </array-type-def>
-      <array-type-def dimensions='1' type-id='0f8f80b0' size-in-bits='320' id='39e1fe03'>
-        <subrange length='5' type-id='7ff19f0f' id='53010e10'/>
+      <array-type-def dimensions='1' type-id='0f8f80b0' size-in-bits='384' id='39e8b9c8'>
+        <subrange length='6' type-id='7ff19f0f' id='52fa524b'/>
       </array-type-def>
-      <array-type-def dimensions='1' type-id='3213e875' size-in-bits='320' id='f5665670'>
-        <subrange length='5' type-id='7ff19f0f' id='53010e10'/>
+      <array-type-def dimensions='1' type-id='3213e875' size-in-bits='384' id='f55e07ab'>
+        <subrange length='6' type-id='7ff19f0f' id='52fa524b'/>
       </array-type-def>
       <type-decl name='bool' size-in-bits='8' id='c894953d'/>
       <array-type-def dimensions='1' type-id='531c24d0' size-in-bits='128' id='dcd9fb4c'>
@@ -3958,20 +3958,20 @@
           <var-decl name='first' type-id='08cbad52' visibility='default' filepath='include/linux/types.h' line='183' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='bpf_prog_array' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/bpf.h' line='1063' column='1' id='c75c7b06'>
+      <class-decl name='bpf_prog_array' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/bpf.h' line='1065' column='1' id='c75c7b06'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='rcu' type-id='e3d8ce29' visibility='default' filepath='include/linux/bpf.h' line='1064' column='1'/>
+          <var-decl name='rcu' type-id='e3d8ce29' visibility='default' filepath='include/linux/bpf.h' line='1066' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='items' type-id='3f814540' visibility='default' filepath='include/linux/bpf.h' line='1065' column='1'/>
+          <var-decl name='items' type-id='3f814540' visibility='default' filepath='include/linux/bpf.h' line='1067' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='bpf_prog_array_item' size-in-bits='192' is-struct='yes' visibility='default' filepath='include/linux/bpf.h' line='1058' column='1' id='f67e137c'>
+      <class-decl name='bpf_prog_array_item' size-in-bits='192' is-struct='yes' visibility='default' filepath='include/linux/bpf.h' line='1060' column='1' id='f67e137c'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='prog' type-id='bdcee7ae' visibility='default' filepath='include/linux/bpf.h' line='1059' column='1'/>
+          <var-decl name='prog' type-id='bdcee7ae' visibility='default' filepath='include/linux/bpf.h' line='1061' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='cgroup_storage' type-id='dcd9fb4c' visibility='default' filepath='include/linux/bpf.h' line='1060' column='1'/>
+          <var-decl name='cgroup_storage' type-id='dcd9fb4c' visibility='default' filepath='include/linux/bpf.h' line='1062' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='bpf_cgroup_storage' size-in-bits='832' is-struct='yes' visibility='default' filepath='include/linux/bpf-cgroup.h' line='53' column='1' id='15881542'>
@@ -11166,7 +11166,7 @@
           <var-decl name='batch' type-id='91ce1af9' visibility='default' filepath='include/linux/blk_types.h' line='558' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='blkcg_gq' size-in-bits='2816' is-struct='yes' visibility='default' filepath='include/linux/blk-cgroup.h' line='105' column='1' id='9467b853'>
+      <class-decl name='blkcg_gq' size-in-bits='2880' is-struct='yes' visibility='default' filepath='include/linux/blk-cgroup.h' line='105' column='1' id='9467b853'>
         <data-member access='public' layout-offset-in-bits='0'>
           <var-decl name='q' type-id='e7d2a5fc' visibility='default' filepath='include/linux/blk-cgroup.h' line='107' column='1'/>
         </data-member>
@@ -11195,37 +11195,37 @@
           <var-decl name='iostat' type-id='c42085ef' visibility='default' filepath='include/linux/blk-cgroup.h' line='122' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1472'>
-          <var-decl name='pd' type-id='f5665670' visibility='default' filepath='include/linux/blk-cgroup.h' line='124' column='1'/>
-        </data-member>
-        <data-member access='public' layout-offset-in-bits='1792'>
-          <var-decl name='async_bio_lock' type-id='fb4018a0' visibility='default' filepath='include/linux/blk-cgroup.h' line='126' column='1'/>
+          <var-decl name='pd' type-id='f55e07ab' visibility='default' filepath='include/linux/blk-cgroup.h' line='124' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1856'>
+          <var-decl name='async_bio_lock' type-id='fb4018a0' visibility='default' filepath='include/linux/blk-cgroup.h' line='126' column='1'/>
+        </data-member>
+        <data-member access='public' layout-offset-in-bits='1920'>
           <var-decl name='async_bios' type-id='096280be' visibility='default' filepath='include/linux/blk-cgroup.h' line='127' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='1984'>
+        <data-member access='public' layout-offset-in-bits='2048'>
           <var-decl name='async_bio_work' type-id='ef9025d0' visibility='default' filepath='include/linux/blk-cgroup.h' line='128' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='2368'>
+        <data-member access='public' layout-offset-in-bits='2432'>
           <var-decl name='use_delay' type-id='49178f86' visibility='default' filepath='include/linux/blk-cgroup.h' line='130' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='2432'>
+        <data-member access='public' layout-offset-in-bits='2496'>
           <var-decl name='delay_nsec' type-id='28ee064c' visibility='default' filepath='include/linux/blk-cgroup.h' line='131' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='2496'>
+        <data-member access='public' layout-offset-in-bits='2560'>
           <var-decl name='delay_start' type-id='28ee064c' visibility='default' filepath='include/linux/blk-cgroup.h' line='132' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='2560'>
+        <data-member access='public' layout-offset-in-bits='2624'>
           <var-decl name='last_delay' type-id='91ce1af9' visibility='default' filepath='include/linux/blk-cgroup.h' line='133' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='2624'>
+        <data-member access='public' layout-offset-in-bits='2688'>
           <var-decl name='last_use' type-id='95e97e5e' visibility='default' filepath='include/linux/blk-cgroup.h' line='134' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='2688'>
+        <data-member access='public' layout-offset-in-bits='2752'>
           <var-decl name='callback_head' type-id='e3d8ce29' visibility='default' filepath='include/linux/blk-cgroup.h' line='136' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='blkcg' size-in-bits='2752' is-struct='yes' visibility='default' filepath='include/linux/blk-cgroup.h' line='46' column='1' id='19b26952'>
+      <class-decl name='blkcg' size-in-bits='2816' is-struct='yes' visibility='default' filepath='include/linux/blk-cgroup.h' line='46' column='1' id='19b26952'>
         <data-member access='public' layout-offset-in-bits='0'>
           <var-decl name='css' type-id='7f3df443' visibility='default' filepath='include/linux/blk-cgroup.h' line='47' column='1'/>
         </data-member>
@@ -11245,12 +11245,12 @@
           <var-decl name='blkg_list' type-id='e151255a' visibility='default' filepath='include/linux/blk-cgroup.h' line='53' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2176'>
-          <var-decl name='cpd' type-id='39e1fe03' visibility='default' filepath='include/linux/blk-cgroup.h' line='55' column='1'/>
+          <var-decl name='cpd' type-id='39e8b9c8' visibility='default' filepath='include/linux/blk-cgroup.h' line='55' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='2496'>
+        <data-member access='public' layout-offset-in-bits='2560'>
           <var-decl name='all_blkcgs_node' type-id='72f469ec' visibility='default' filepath='include/linux/blk-cgroup.h' line='57' column='1'/>
         </data-member>
-        <data-member access='public' layout-offset-in-bits='2624'>
+        <data-member access='public' layout-offset-in-bits='2688'>
           <var-decl name='cgwb_list' type-id='72f469ec' visibility='default' filepath='include/linux/blk-cgroup.h' line='59' column='1'/>
         </data-member>
       </class-decl>
@@ -17483,7 +17483,7 @@
       <type-decl name='unsigned int' size-in-bits='32' id='f0981eeb'/>
       <type-decl name='unsigned long int' size-in-bits='64' id='7359adad'/>
       <type-decl name='void' id='48b5725f'/>
-      <function-decl name='vmx_do_interrupt_nmi_irqoff' filepath='arch/x86/kvm/vmx/vmx.c' line='6356' column='1' visibility='default' binding='global' size-in-bits='64'>
+      <function-decl name='vmx_do_interrupt_nmi_irqoff' filepath='arch/x86/kvm/vmx/vmx.c' line='6357' column='1' visibility='default' binding='global' size-in-bits='64'>
         <parameter type-id='7359adad'/>
         <return type-id='48b5725f'/>
       </function-decl>
