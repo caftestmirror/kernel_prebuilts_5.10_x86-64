@@ -195,6 +195,8 @@
       <elf-symbol name='__SCT__tp_func_android_vh_include_reserved_zone' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x64721ae0'/>
       <elf-symbol name='__SCT__tp_func_android_vh_iommu_alloc_iova' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x25e81aae'/>
       <elf-symbol name='__SCT__tp_func_android_vh_iommu_free_iova' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcc5fa746'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_iommu_iovad_alloc_iova' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xf53c90a1'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_iommu_iovad_free_iova' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x15c7d535'/>
       <elf-symbol name='__SCT__tp_func_android_vh_iommu_setup_dma_ops' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7191bd75'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ipi_stop' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc2e1377a'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ipv6_gen_linklocal_addr' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4d4319cb'/>
