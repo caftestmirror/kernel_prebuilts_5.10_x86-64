@@ -10,6 +10,7 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_after_enqueue_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x37eeefcd'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_arm64_serror_panic' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9d02b323'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_bad_mode' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcd7af0d7'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_binder_transaction' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd03b2457'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_build_perf_domains' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9ab4e4dd'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_can_migrate_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8f3002'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_cgroup_force_kthread_migration' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xb01b5293'/>
@@ -30,6 +31,7 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_do_bti' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x90e68615'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_mem_abort' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcaacb125'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_ptrauth_fault' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x870eff9c'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_do_sched_yield' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc2ea6fc3'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_sea' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3c833a30'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_sp_pc_abort' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xb22db850'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_undefinstr' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3c8349c8'/>
@@ -133,6 +135,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_binder_print_transaction_info' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd5365dd7'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_priority_skip' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x40ab5d0d'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_proc_transaction' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5fe9023d'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_binder_proc_transaction_end' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc4b574d7'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_reply' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9a6113a'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_restore_priority' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x20addb57'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_set_priority' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x232033cd'/>
@@ -327,8 +330,15 @@
       <elf-symbol name='__SCT__tp_func_arm_event' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9107d224'/>
       <elf-symbol name='__SCT__tp_func_binder_transaction_received' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4af5c521'/>
       <elf-symbol name='__SCT__tp_func_block_bio_complete' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4e144a54'/>
+      <elf-symbol name='__SCT__tp_func_block_bio_queue' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4300a725'/>
       <elf-symbol name='__SCT__tp_func_block_bio_remap' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x273aff5c'/>
+      <elf-symbol name='__SCT__tp_func_block_getrq' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xfff75cd3'/>
+      <elf-symbol name='__SCT__tp_func_block_rq_complete' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6ef78a09'/>
+      <elf-symbol name='__SCT__tp_func_block_rq_insert' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x85bfc5f9'/>
+      <elf-symbol name='__SCT__tp_func_block_rq_issue' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4056e2d4'/>
+      <elf-symbol name='__SCT__tp_func_block_rq_merge' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x80f0b4a2'/>
       <elf-symbol name='__SCT__tp_func_block_rq_remap' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcf02ab71'/>
+      <elf-symbol name='__SCT__tp_func_block_rq_requeue' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc3f9e8c7'/>
       <elf-symbol name='__SCT__tp_func_block_split' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd4404350'/>
       <elf-symbol name='__SCT__tp_func_block_unplug' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x12189359'/>
       <elf-symbol name='__SCT__tp_func_br_fdb_add' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2d44be3b'/>
