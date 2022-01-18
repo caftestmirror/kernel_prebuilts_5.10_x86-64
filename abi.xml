@@ -185,6 +185,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_ftrace_oops_exit' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x80f53646'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ftrace_size_check' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xfe1a6457'/>
       <elf-symbol name='__SCT__tp_func_android_vh_get_from_fragment_pool' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xbdf97617'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_get_thermal_zone_device' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x1066c9cb'/>
       <elf-symbol name='__SCT__tp_func_android_vh_gic_resume' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xbf064ca2'/>
       <elf-symbol name='__SCT__tp_func_android_vh_gic_v3_affinity_init' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x1520544a'/>
       <elf-symbol name='__SCT__tp_func_android_vh_gpio_block_read' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x51b3c14d'/>
