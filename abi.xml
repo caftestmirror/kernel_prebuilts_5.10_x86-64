@@ -10,6 +10,7 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_after_enqueue_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x37eeefcd'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_arm64_serror_panic' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9d02b323'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_bad_mode' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcd7af0d7'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_binder_transaction' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd03b2457'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_build_perf_domains' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9ab4e4dd'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_can_migrate_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8f3002'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_cgroup_force_kthread_migration' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xb01b5293'/>
@@ -30,6 +31,7 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_do_bti' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x90e68615'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_mem_abort' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcaacb125'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_ptrauth_fault' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x870eff9c'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_do_sched_yield' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc2ea6fc3'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_sea' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3c833a30'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_sp_pc_abort' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xb22db850'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_do_undefinstr' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3c8349c8'/>
@@ -128,14 +130,21 @@
       <elf-symbol name='__SCT__tp_func_android_vh_arch_set_freq_scale' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9d02e0c1'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_alloc_new_buf_locked' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x70ffc43'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_del_ref' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe3f8b7b3'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_binder_free_proc' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6d6d45e6'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_binder_has_work_ilocked' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2c9b9e8d'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_binder_looper_state_registered' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x1e18b096'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_new_ref' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc0a6fd8e'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_preset' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x954d8c15'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_print_transaction_info' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd5365dd7'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_priority_skip' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x40ab5d0d'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_proc_transaction' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5fe9023d'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_binder_proc_transaction_end' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc4b574d7'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_binder_read_done' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7f3a10fc'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_reply' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9a6113a'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_restore_priority' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x20addb57'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_set_priority' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x232033cd'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_binder_thread_read' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd614a8c0'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_binder_thread_release' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8e16750e'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_trans' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x90e74713'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_transaction_init' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x55cfef20'/>
       <elf-symbol name='__SCT__tp_func_android_vh_binder_wait_for_work' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7d6e8a3d'/>
@@ -193,6 +202,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_ftrace_oops_enter' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5ac22208'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ftrace_oops_exit' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x80f53646'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ftrace_size_check' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xfe1a6457'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_futex_sleep_start' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xab97e4c6'/>
       <elf-symbol name='__SCT__tp_func_android_vh_get_from_fragment_pool' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xbdf97617'/>
       <elf-symbol name='__SCT__tp_func_android_vh_gic_resume' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xbf064ca2'/>
       <elf-symbol name='__SCT__tp_func_android_vh_gic_v3_affinity_init' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x1520544a'/>
@@ -288,6 +298,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_snd_compr_use_pause_in_drain' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x358d74d5'/>
       <elf-symbol name='__SCT__tp_func_android_vh_snd_soc_card_get_comp_chain' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xeadc5f40'/>
       <elf-symbol name='__SCT__tp_func_android_vh_sound_usb_support_cpu_suspend' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc5dc91d6'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_subpage_dma_contig_alloc' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3609de60'/>
       <elf-symbol name='__SCT__tp_func_android_vh_sync_txn_recvd' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2a914520'/>
       <elf-symbol name='__SCT__tp_func_android_vh_syscall_prctl_finished' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7cac4626'/>
       <elf-symbol name='__SCT__tp_func_android_vh_sysrq_crash' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4b0d74b8'/>
@@ -327,8 +338,15 @@
       <elf-symbol name='__SCT__tp_func_arm_event' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9107d224'/>
       <elf-symbol name='__SCT__tp_func_binder_transaction_received' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4af5c521'/>
       <elf-symbol name='__SCT__tp_func_block_bio_complete' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4e144a54'/>
+      <elf-symbol name='__SCT__tp_func_block_bio_queue' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4300a725'/>
       <elf-symbol name='__SCT__tp_func_block_bio_remap' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x273aff5c'/>
+      <elf-symbol name='__SCT__tp_func_block_getrq' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xfff75cd3'/>
+      <elf-symbol name='__SCT__tp_func_block_rq_complete' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6ef78a09'/>
+      <elf-symbol name='__SCT__tp_func_block_rq_insert' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x85bfc5f9'/>
+      <elf-symbol name='__SCT__tp_func_block_rq_issue' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4056e2d4'/>
+      <elf-symbol name='__SCT__tp_func_block_rq_merge' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x80f0b4a2'/>
       <elf-symbol name='__SCT__tp_func_block_rq_remap' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcf02ab71'/>
+      <elf-symbol name='__SCT__tp_func_block_rq_requeue' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc3f9e8c7'/>
       <elf-symbol name='__SCT__tp_func_block_split' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd4404350'/>
       <elf-symbol name='__SCT__tp_func_block_unplug' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x12189359'/>
       <elf-symbol name='__SCT__tp_func_br_fdb_add' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2d44be3b'/>
@@ -2859,249 +2877,249 @@
           <var-decl name='android_kabi_reserved4' type-id='91ce1af9' visibility='default' filepath='include/linux/fs.h' line='2308' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='module' size-in-bits='8704' is-struct='yes' visibility='default' filepath='include/linux/module.h' line='367' column='1' id='29476915'>
+      <class-decl name='module' size-in-bits='8704' is-struct='yes' visibility='default' filepath='include/linux/module.h' line='368' column='1' id='29476915'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='state' type-id='327e04c6' visibility='default' filepath='include/linux/module.h' line='368' column='1'/>
+          <var-decl name='state' type-id='327e04c6' visibility='default' filepath='include/linux/module.h' line='369' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='list' type-id='72f469ec' visibility='default' filepath='include/linux/module.h' line='371' column='1'/>
+          <var-decl name='list' type-id='72f469ec' visibility='default' filepath='include/linux/module.h' line='372' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='192'>
-          <var-decl name='name' type-id='6093ff7c' visibility='default' filepath='include/linux/module.h' line='374' column='1'/>
+          <var-decl name='name' type-id='6093ff7c' visibility='default' filepath='include/linux/module.h' line='375' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='640'>
-          <var-decl name='mkobj' type-id='7bd9942c' visibility='default' filepath='include/linux/module.h' line='377' column='1'/>
+          <var-decl name='mkobj' type-id='7bd9942c' visibility='default' filepath='include/linux/module.h' line='378' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1664'>
-          <var-decl name='modinfo_attrs' type-id='063da268' visibility='default' filepath='include/linux/module.h' line='378' column='1'/>
+          <var-decl name='modinfo_attrs' type-id='063da268' visibility='default' filepath='include/linux/module.h' line='379' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1728'>
-          <var-decl name='version' type-id='80f4b756' visibility='default' filepath='include/linux/module.h' line='379' column='1'/>
+          <var-decl name='version' type-id='80f4b756' visibility='default' filepath='include/linux/module.h' line='380' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1792'>
-          <var-decl name='srcversion' type-id='80f4b756' visibility='default' filepath='include/linux/module.h' line='380' column='1'/>
+          <var-decl name='srcversion' type-id='80f4b756' visibility='default' filepath='include/linux/module.h' line='381' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1856'>
-          <var-decl name='scmversion' type-id='80f4b756' visibility='default' filepath='include/linux/module.h' line='381' column='1'/>
+          <var-decl name='scmversion' type-id='80f4b756' visibility='default' filepath='include/linux/module.h' line='382' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1920'>
-          <var-decl name='holders_dir' type-id='d30bdc51' visibility='default' filepath='include/linux/module.h' line='382' column='1'/>
+          <var-decl name='holders_dir' type-id='d30bdc51' visibility='default' filepath='include/linux/module.h' line='383' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1984'>
-          <var-decl name='syms' type-id='fcd64690' visibility='default' filepath='include/linux/module.h' line='385' column='1'/>
+          <var-decl name='syms' type-id='fcd64690' visibility='default' filepath='include/linux/module.h' line='386' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2048'>
-          <var-decl name='crcs' type-id='e0a2e3a6' visibility='default' filepath='include/linux/module.h' line='386' column='1'/>
+          <var-decl name='crcs' type-id='e0a2e3a6' visibility='default' filepath='include/linux/module.h' line='387' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2112'>
-          <var-decl name='num_syms' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='387' column='1'/>
+          <var-decl name='num_syms' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='388' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2176'>
-          <var-decl name='cfi_check' type-id='d7c6106c' visibility='default' filepath='include/linux/module.h' line='390' column='1'/>
+          <var-decl name='cfi_check' type-id='d7c6106c' visibility='default' filepath='include/linux/module.h' line='391' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2240'>
-          <var-decl name='param_lock' type-id='925167dc' visibility='default' filepath='include/linux/module.h' line='395' column='1'/>
+          <var-decl name='param_lock' type-id='925167dc' visibility='default' filepath='include/linux/module.h' line='396' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2624'>
-          <var-decl name='kp' type-id='a7c6e908' visibility='default' filepath='include/linux/module.h' line='397' column='1'/>
+          <var-decl name='kp' type-id='a7c6e908' visibility='default' filepath='include/linux/module.h' line='398' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2688'>
-          <var-decl name='num_kp' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='398' column='1'/>
+          <var-decl name='num_kp' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='399' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2720'>
-          <var-decl name='num_gpl_syms' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='401' column='1'/>
+          <var-decl name='num_gpl_syms' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='402' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2752'>
-          <var-decl name='gpl_syms' type-id='fcd64690' visibility='default' filepath='include/linux/module.h' line='402' column='1'/>
+          <var-decl name='gpl_syms' type-id='fcd64690' visibility='default' filepath='include/linux/module.h' line='403' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2816'>
-          <var-decl name='gpl_crcs' type-id='e0a2e3a6' visibility='default' filepath='include/linux/module.h' line='403' column='1'/>
+          <var-decl name='gpl_crcs' type-id='e0a2e3a6' visibility='default' filepath='include/linux/module.h' line='404' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2880'>
-          <var-decl name='using_gplonly_symbols' type-id='b50a4934' visibility='default' filepath='include/linux/module.h' line='404' column='1'/>
+          <var-decl name='using_gplonly_symbols' type-id='b50a4934' visibility='default' filepath='include/linux/module.h' line='405' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2944'>
-          <var-decl name='unused_syms' type-id='fcd64690' visibility='default' filepath='include/linux/module.h' line='408' column='1'/>
+          <var-decl name='unused_syms' type-id='fcd64690' visibility='default' filepath='include/linux/module.h' line='409' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3008'>
-          <var-decl name='unused_crcs' type-id='e0a2e3a6' visibility='default' filepath='include/linux/module.h' line='409' column='1'/>
+          <var-decl name='unused_crcs' type-id='e0a2e3a6' visibility='default' filepath='include/linux/module.h' line='410' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3072'>
-          <var-decl name='num_unused_syms' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='410' column='1'/>
+          <var-decl name='num_unused_syms' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='411' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3104'>
-          <var-decl name='num_unused_gpl_syms' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='413' column='1'/>
+          <var-decl name='num_unused_gpl_syms' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='414' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3136'>
-          <var-decl name='unused_gpl_syms' type-id='fcd64690' visibility='default' filepath='include/linux/module.h' line='414' column='1'/>
+          <var-decl name='unused_gpl_syms' type-id='fcd64690' visibility='default' filepath='include/linux/module.h' line='415' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3200'>
-          <var-decl name='unused_gpl_crcs' type-id='e0a2e3a6' visibility='default' filepath='include/linux/module.h' line='415' column='1'/>
+          <var-decl name='unused_gpl_crcs' type-id='e0a2e3a6' visibility='default' filepath='include/linux/module.h' line='416' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3264'>
-          <var-decl name='sig_ok' type-id='b50a4934' visibility='default' filepath='include/linux/module.h' line='423' column='1'/>
+          <var-decl name='sig_ok' type-id='b50a4934' visibility='default' filepath='include/linux/module.h' line='424' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3272'>
-          <var-decl name='async_probe_requested' type-id='b50a4934' visibility='default' filepath='include/linux/module.h' line='425' column='1'/>
+          <var-decl name='async_probe_requested' type-id='b50a4934' visibility='default' filepath='include/linux/module.h' line='426' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3328'>
-          <var-decl name='gpl_future_syms' type-id='fcd64690' visibility='default' filepath='include/linux/module.h' line='428' column='1'/>
+          <var-decl name='gpl_future_syms' type-id='fcd64690' visibility='default' filepath='include/linux/module.h' line='429' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3392'>
-          <var-decl name='gpl_future_crcs' type-id='e0a2e3a6' visibility='default' filepath='include/linux/module.h' line='429' column='1'/>
+          <var-decl name='gpl_future_crcs' type-id='e0a2e3a6' visibility='default' filepath='include/linux/module.h' line='430' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3456'>
-          <var-decl name='num_gpl_future_syms' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='430' column='1'/>
+          <var-decl name='num_gpl_future_syms' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='431' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3488'>
-          <var-decl name='num_exentries' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='433' column='1'/>
+          <var-decl name='num_exentries' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='434' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3520'>
-          <var-decl name='extable' type-id='7f0eb64c' visibility='default' filepath='include/linux/module.h' line='434' column='1'/>
+          <var-decl name='extable' type-id='7f0eb64c' visibility='default' filepath='include/linux/module.h' line='435' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3584'>
-          <var-decl name='init' type-id='1db260e5' visibility='default' filepath='include/linux/module.h' line='437' column='1'/>
+          <var-decl name='init' type-id='1db260e5' visibility='default' filepath='include/linux/module.h' line='438' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4096'>
-          <var-decl name='core_layout' type-id='68b3d9a8' visibility='default' filepath='include/linux/module.h' line='440' column='1'/>
+          <var-decl name='core_layout' type-id='68b3d9a8' visibility='default' filepath='include/linux/module.h' line='441' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4736'>
-          <var-decl name='init_layout' type-id='68b3d9a8' visibility='default' filepath='include/linux/module.h' line='441' column='1'/>
+          <var-decl name='init_layout' type-id='68b3d9a8' visibility='default' filepath='include/linux/module.h' line='442' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5376'>
-          <var-decl name='arch' type-id='ea05c185' visibility='default' filepath='include/linux/module.h' line='444' column='1'/>
+          <var-decl name='arch' type-id='ea05c185' visibility='default' filepath='include/linux/module.h' line='445' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5376'>
-          <var-decl name='taints' type-id='7359adad' visibility='default' filepath='include/linux/module.h' line='446' column='1'/>
+          <var-decl name='taints' type-id='7359adad' visibility='default' filepath='include/linux/module.h' line='447' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5440'>
-          <var-decl name='num_bugs' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='450' column='1'/>
+          <var-decl name='num_bugs' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='451' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5504'>
-          <var-decl name='bug_list' type-id='72f469ec' visibility='default' filepath='include/linux/module.h' line='451' column='1'/>
+          <var-decl name='bug_list' type-id='72f469ec' visibility='default' filepath='include/linux/module.h' line='452' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5632'>
-          <var-decl name='bug_table' type-id='c250b0e4' visibility='default' filepath='include/linux/module.h' line='452' column='1'/>
+          <var-decl name='bug_table' type-id='c250b0e4' visibility='default' filepath='include/linux/module.h' line='453' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5696'>
-          <var-decl name='kallsyms' type-id='209d601e' visibility='default' filepath='include/linux/module.h' line='457' column='1'/>
+          <var-decl name='kallsyms' type-id='209d601e' visibility='default' filepath='include/linux/module.h' line='458' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5760'>
-          <var-decl name='core_kallsyms' type-id='6a003ee8' visibility='default' filepath='include/linux/module.h' line='458' column='1'/>
+          <var-decl name='core_kallsyms' type-id='6a003ee8' visibility='default' filepath='include/linux/module.h' line='459' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6016'>
-          <var-decl name='sect_attrs' type-id='3f4455c4' visibility='default' filepath='include/linux/module.h' line='461' column='1'/>
+          <var-decl name='sect_attrs' type-id='3f4455c4' visibility='default' filepath='include/linux/module.h' line='462' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6080'>
-          <var-decl name='notes_attrs' type-id='f0cb8b62' visibility='default' filepath='include/linux/module.h' line='464' column='1'/>
+          <var-decl name='notes_attrs' type-id='f0cb8b62' visibility='default' filepath='include/linux/module.h' line='465' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6144'>
-          <var-decl name='args' type-id='26a90f95' visibility='default' filepath='include/linux/module.h' line='469' column='1'/>
+          <var-decl name='args' type-id='26a90f95' visibility='default' filepath='include/linux/module.h' line='470' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6208'>
-          <var-decl name='percpu' type-id='eaa32e2f' visibility='default' filepath='include/linux/module.h' line='473' column='1'/>
+          <var-decl name='percpu' type-id='eaa32e2f' visibility='default' filepath='include/linux/module.h' line='474' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6272'>
-          <var-decl name='percpu_size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='474' column='1'/>
+          <var-decl name='percpu_size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='475' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6336'>
-          <var-decl name='noinstr_text_start' type-id='eaa32e2f' visibility='default' filepath='include/linux/module.h' line='476' column='1'/>
+          <var-decl name='noinstr_text_start' type-id='eaa32e2f' visibility='default' filepath='include/linux/module.h' line='477' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6400'>
-          <var-decl name='noinstr_text_size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='477' column='1'/>
+          <var-decl name='noinstr_text_size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='478' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6432'>
-          <var-decl name='num_tracepoints' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='480' column='1'/>
+          <var-decl name='num_tracepoints' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='481' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6464'>
-          <var-decl name='tracepoints_ptrs' type-id='700727c0' visibility='default' filepath='include/linux/module.h' line='481' column='1'/>
+          <var-decl name='tracepoints_ptrs' type-id='700727c0' visibility='default' filepath='include/linux/module.h' line='482' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6528'>
-          <var-decl name='num_srcu_structs' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='484' column='1'/>
+          <var-decl name='num_srcu_structs' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='485' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6592'>
-          <var-decl name='srcu_struct_ptrs' type-id='57933490' visibility='default' filepath='include/linux/module.h' line='485' column='1'/>
+          <var-decl name='srcu_struct_ptrs' type-id='57933490' visibility='default' filepath='include/linux/module.h' line='486' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6656'>
-          <var-decl name='num_bpf_raw_events' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='488' column='1'/>
+          <var-decl name='num_bpf_raw_events' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='489' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6720'>
-          <var-decl name='bpf_raw_events' type-id='1f7f0216' visibility='default' filepath='include/linux/module.h' line='489' column='1'/>
+          <var-decl name='bpf_raw_events' type-id='1f7f0216' visibility='default' filepath='include/linux/module.h' line='490' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6784'>
-          <var-decl name='jump_entries' type-id='7a35228c' visibility='default' filepath='include/linux/module.h' line='492' column='1'/>
+          <var-decl name='jump_entries' type-id='7a35228c' visibility='default' filepath='include/linux/module.h' line='493' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6848'>
-          <var-decl name='num_jump_entries' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='493' column='1'/>
+          <var-decl name='num_jump_entries' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='494' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6880'>
-          <var-decl name='num_trace_bprintk_fmt' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='496' column='1'/>
+          <var-decl name='num_trace_bprintk_fmt' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='497' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6912'>
-          <var-decl name='trace_bprintk_fmt_start' type-id='7d3cd834' visibility='default' filepath='include/linux/module.h' line='497' column='1'/>
+          <var-decl name='trace_bprintk_fmt_start' type-id='7d3cd834' visibility='default' filepath='include/linux/module.h' line='498' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6976'>
-          <var-decl name='trace_events' type-id='109cc752' visibility='default' filepath='include/linux/module.h' line='500' column='1'/>
+          <var-decl name='trace_events' type-id='109cc752' visibility='default' filepath='include/linux/module.h' line='501' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7040'>
-          <var-decl name='num_trace_events' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='501' column='1'/>
+          <var-decl name='num_trace_events' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='502' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7104'>
-          <var-decl name='trace_evals' type-id='69881700' visibility='default' filepath='include/linux/module.h' line='502' column='1'/>
+          <var-decl name='trace_evals' type-id='69881700' visibility='default' filepath='include/linux/module.h' line='503' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7168'>
-          <var-decl name='num_trace_evals' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='503' column='1'/>
+          <var-decl name='num_trace_evals' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='504' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7232'>
-          <var-decl name='kprobes_text_start' type-id='eaa32e2f' visibility='default' filepath='include/linux/module.h' line='510' column='1'/>
+          <var-decl name='kprobes_text_start' type-id='eaa32e2f' visibility='default' filepath='include/linux/module.h' line='511' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7296'>
-          <var-decl name='kprobes_text_size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='511' column='1'/>
+          <var-decl name='kprobes_text_size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='512' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7360'>
-          <var-decl name='kprobe_blacklist' type-id='1d2c2b85' visibility='default' filepath='include/linux/module.h' line='512' column='1'/>
+          <var-decl name='kprobe_blacklist' type-id='1d2c2b85' visibility='default' filepath='include/linux/module.h' line='513' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7424'>
-          <var-decl name='num_kprobe_blacklist' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='513' column='1'/>
+          <var-decl name='num_kprobe_blacklist' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='514' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7456'>
-          <var-decl name='num_static_call_sites' type-id='95e97e5e' visibility='default' filepath='include/linux/module.h' line='516' column='1'/>
+          <var-decl name='num_static_call_sites' type-id='95e97e5e' visibility='default' filepath='include/linux/module.h' line='517' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7488'>
-          <var-decl name='static_call_sites' type-id='35d6ace8' visibility='default' filepath='include/linux/module.h' line='517' column='1'/>
+          <var-decl name='static_call_sites' type-id='35d6ace8' visibility='default' filepath='include/linux/module.h' line='518' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7552'>
-          <var-decl name='source_list' type-id='72f469ec' visibility='default' filepath='include/linux/module.h' line='530' column='1'/>
+          <var-decl name='source_list' type-id='72f469ec' visibility='default' filepath='include/linux/module.h' line='531' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7680'>
-          <var-decl name='target_list' type-id='72f469ec' visibility='default' filepath='include/linux/module.h' line='532' column='1'/>
+          <var-decl name='target_list' type-id='72f469ec' visibility='default' filepath='include/linux/module.h' line='533' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7808'>
-          <var-decl name='exit' type-id='953b12f8' visibility='default' filepath='include/linux/module.h' line='535' column='1'/>
+          <var-decl name='exit' type-id='953b12f8' visibility='default' filepath='include/linux/module.h' line='536' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7872'>
-          <var-decl name='refcnt' type-id='49178f86' visibility='default' filepath='include/linux/module.h' line='537' column='1'/>
+          <var-decl name='refcnt' type-id='49178f86' visibility='default' filepath='include/linux/module.h' line='538' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7936'>
-          <var-decl name='ei_funcs' type-id='7f79f20e' visibility='default' filepath='include/linux/module.h' line='547' column='1'/>
+          <var-decl name='ei_funcs' type-id='7f79f20e' visibility='default' filepath='include/linux/module.h' line='548' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='8000'>
-          <var-decl name='num_ei_funcs' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='548' column='1'/>
+          <var-decl name='num_ei_funcs' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='549' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='8064'>
-          <var-decl name='android_kabi_reserved1' type-id='91ce1af9' visibility='default' filepath='include/linux/module.h' line='550' column='1'/>
+          <var-decl name='android_kabi_reserved1' type-id='91ce1af9' visibility='default' filepath='include/linux/module.h' line='551' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='8128'>
-          <var-decl name='android_kabi_reserved2' type-id='91ce1af9' visibility='default' filepath='include/linux/module.h' line='551' column='1'/>
+          <var-decl name='android_kabi_reserved2' type-id='91ce1af9' visibility='default' filepath='include/linux/module.h' line='552' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='8192'>
-          <var-decl name='android_kabi_reserved3' type-id='91ce1af9' visibility='default' filepath='include/linux/module.h' line='552' column='1'/>
+          <var-decl name='android_kabi_reserved3' type-id='91ce1af9' visibility='default' filepath='include/linux/module.h' line='553' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='8256'>
-          <var-decl name='android_kabi_reserved4' type-id='91ce1af9' visibility='default' filepath='include/linux/module.h' line='553' column='1'/>
+          <var-decl name='android_kabi_reserved4' type-id='91ce1af9' visibility='default' filepath='include/linux/module.h' line='554' column='1'/>
         </data-member>
       </class-decl>
-      <enum-decl name='module_state' filepath='include/linux/module.h' line='315' column='1' id='327e04c6'>
+      <enum-decl name='module_state' filepath='include/linux/module.h' line='316' column='1' id='327e04c6'>
         <underlying-type type-id='9cac1fee'/>
         <enumerator name='MODULE_STATE_LIVE' value='0'/>
         <enumerator name='MODULE_STATE_COMING' value='1'/>
@@ -3293,32 +3311,32 @@
           <var-decl name='handler' type-id='95e97e5e' visibility='default' filepath='arch/x86/include/asm/extable.h' line='18' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='module_layout' size-in-bits='640' is-struct='yes' visibility='default' filepath='include/linux/module.h' line='327' column='1' id='68b3d9a8'>
+      <class-decl name='module_layout' size-in-bits='640' is-struct='yes' visibility='default' filepath='include/linux/module.h' line='328' column='1' id='68b3d9a8'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='base' type-id='eaa32e2f' visibility='default' filepath='include/linux/module.h' line='329' column='1'/>
+          <var-decl name='base' type-id='eaa32e2f' visibility='default' filepath='include/linux/module.h' line='330' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='331' column='1'/>
+          <var-decl name='size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='332' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='96'>
-          <var-decl name='text_size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='333' column='1'/>
+          <var-decl name='text_size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='334' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='ro_size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='335' column='1'/>
+          <var-decl name='ro_size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='336' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='160'>
-          <var-decl name='ro_after_init_size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='337' column='1'/>
+          <var-decl name='ro_after_init_size' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='338' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='192'>
-          <var-decl name='mtn' type-id='3351dce1' visibility='default' filepath='include/linux/module.h' line='340' column='1'/>
+          <var-decl name='mtn' type-id='3351dce1' visibility='default' filepath='include/linux/module.h' line='341' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='mod_tree_node' size-in-bits='448' is-struct='yes' visibility='default' filepath='include/linux/module.h' line='322' column='1' id='3351dce1'>
+      <class-decl name='mod_tree_node' size-in-bits='448' is-struct='yes' visibility='default' filepath='include/linux/module.h' line='323' column='1' id='3351dce1'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='mod' type-id='2730d015' visibility='default' filepath='include/linux/module.h' line='323' column='1'/>
+          <var-decl name='mod' type-id='2730d015' visibility='default' filepath='include/linux/module.h' line='324' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='node' type-id='dc9cc7c7' visibility='default' filepath='include/linux/module.h' line='324' column='1'/>
+          <var-decl name='node' type-id='dc9cc7c7' visibility='default' filepath='include/linux/module.h' line='325' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='latch_tree_node' size-in-bits='384' is-struct='yes' visibility='default' filepath='include/linux/rbtree_latch.h' line='40' column='1' id='dc9cc7c7'>
@@ -3352,18 +3370,18 @@
           <var-decl name='flags' type-id='8efea9e5' visibility='default' filepath='include/asm-generic/bug.h' line='39' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='mod_kallsyms' size-in-bits='256' is-struct='yes' visibility='default' filepath='include/linux/module.h' line='351' column='1' id='6a003ee8'>
+      <class-decl name='mod_kallsyms' size-in-bits='256' is-struct='yes' visibility='default' filepath='include/linux/module.h' line='352' column='1' id='6a003ee8'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='symtab' type-id='7d71a706' visibility='default' filepath='include/linux/module.h' line='352' column='1'/>
+          <var-decl name='symtab' type-id='7d71a706' visibility='default' filepath='include/linux/module.h' line='353' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='num_symtab' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='353' column='1'/>
+          <var-decl name='num_symtab' type-id='f0981eeb' visibility='default' filepath='include/linux/module.h' line='354' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='strtab' type-id='26a90f95' visibility='default' filepath='include/linux/module.h' line='354' column='1'/>
+          <var-decl name='strtab' type-id='26a90f95' visibility='default' filepath='include/linux/module.h' line='355' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='192'>
-          <var-decl name='typetab' type-id='26a90f95' visibility='default' filepath='include/linux/module.h' line='355' column='1'/>
+          <var-decl name='typetab' type-id='26a90f95' visibility='default' filepath='include/linux/module.h' line='356' column='1'/>
         </data-member>
       </class-decl>
       <typedef-decl name='Elf64_Sym' type-id='30bf9720' filepath='include/uapi/linux/elf.h' line='200' column='1' id='7cdfe313'/>
