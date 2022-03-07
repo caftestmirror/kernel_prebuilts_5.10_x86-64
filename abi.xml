@@ -289,6 +289,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_typec_tcpm_adj_current_limit' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9f358f0b'/>
       <elf-symbol name='__SCT__tp_func_android_vh_typec_tcpm_get_timer' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x96bb5ea2'/>
       <elf-symbol name='__SCT__tp_func_android_vh_typec_tcpm_log' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x78c42f5'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_typec_tcpm_modify_src_caps' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd7862cc6'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_check_int_errors' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x92a7a9b'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_clock_scaling' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4c19938a'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_compl_command' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5979f9a4'/>
