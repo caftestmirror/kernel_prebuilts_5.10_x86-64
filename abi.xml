@@ -54,6 +54,7 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_new_task_stats' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3b673de8'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_nf_conn_alloc' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc9ddac28'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_nf_conn_free' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x627ef93c'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_pci_d3_sleep' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xf3409156'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_pick_next_entity' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa37846ab'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_place_entity' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xaa9d43ea'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_post_init_entity_util_avg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2eafb5ec'/>
@@ -109,6 +110,7 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_update_cpus_allowed' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6eae27b7'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_load_avg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe1370b00'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_update_misfit_status' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x878ee7e1'/>
+      <elf-symbol name='__SCT__tp_func_android_rvh_update_rt_rq_load_avg' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc1e24117'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_util_est_update' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5e74a4ec'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_wake_up_new_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x709e1a5d'/>
       <elf-symbol name='__SCT__tp_func_android_vh___get_user_pages_remote' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd607af6e'/>
