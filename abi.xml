@@ -111,10 +111,13 @@
       <elf-symbol name='__SCT__tp_func_android_rvh_v4l2subdev_set_frame_interval' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3ae5ce07'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_v4l2subdev_set_selection' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x23cd0123'/>
       <elf-symbol name='__SCT__tp_func_android_rvh_wake_up_new_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x709e1a5d'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_account_swap_pages' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x1119cb00'/>
       <elf-symbol name='__SCT__tp_func_android_vh_account_task_time' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe66d60dc'/>
       <elf-symbol name='__SCT__tp_func_android_vh_aes_decrypt' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa15672f6'/>
       <elf-symbol name='__SCT__tp_func_android_vh_aes_encrypt' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x14eb804b'/>
       <elf-symbol name='__SCT__tp_func_android_vh_aes_expandkey' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3c676c28'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_alloc_si' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe6090d56'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_alloc_swap_slot_cache' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x61c6eac6'/>
       <elf-symbol name='__SCT__tp_func_android_vh_allow_domain_state' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xb81e157e'/>
       <elf-symbol name='__SCT__tp_func_android_vh_alter_futex_plist_add' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x69da357d'/>
       <elf-symbol name='__SCT__tp_func_android_vh_alter_mutex_list_add' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x612bd406'/>
@@ -159,6 +162,10 @@
       <elf-symbol name='__SCT__tp_func_android_vh_cma_alloc_start' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xf08bf61c'/>
       <elf-symbol name='__SCT__tp_func_android_vh_cma_drain_all_pages_bypass' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x63d1b644'/>
       <elf-symbol name='__SCT__tp_func_android_vh_commit_creds' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xfbb30e4c'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_count_pswpin' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcd73a0ef'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_count_pswpout' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3eae8831'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_count_swpout_vm_event' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6f5a05a5'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_cow_user_page' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x1e9bb164'/>
       <elf-symbol name='__SCT__tp_func_android_vh_cpu_idle_enter' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x46e7d663'/>
       <elf-symbol name='__SCT__tp_func_android_vh_cpu_idle_exit' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd492fae4'/>
       <elf-symbol name='__SCT__tp_func_android_vh_cpu_up' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xdee18f3f'/>
@@ -171,6 +178,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_do_send_sig_info' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa9566dc2'/>
       <elf-symbol name='__SCT__tp_func_android_vh_do_wake_up_sync' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9fca4110'/>
       <elf-symbol name='__SCT__tp_func_android_vh_drain_all_pages_bypass' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe2da47d8'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_drain_slots_cache_cpu' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcf53c8b3'/>
       <elf-symbol name='__SCT__tp_func_android_vh_dump_throttled_rt_tasks' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3362dca'/>
       <elf-symbol name='__SCT__tp_func_android_vh_dup_task_struct' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x266faae6'/>
       <elf-symbol name='__SCT__tp_func_android_vh_em_cpu_energy' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xdfb9fa0'/>
@@ -183,6 +191,8 @@
       <elf-symbol name='__SCT__tp_func_android_vh_filemap_fault_get_page' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xeea6e84b'/>
       <elf-symbol name='__SCT__tp_func_android_vh_fill_ext_fmtdesc' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa589fe4f'/>
       <elf-symbol name='__SCT__tp_func_android_vh_finish_update_load_avg_se' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd3e19615'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_free_pages' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9d64efcf'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_free_swap_slot' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8b5c7794'/>
       <elf-symbol name='__SCT__tp_func_android_vh_free_task' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2f2b4b75'/>
       <elf-symbol name='__SCT__tp_func_android_vh_freq_qos_add_request' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5f6ca326'/>
       <elf-symbol name='__SCT__tp_func_android_vh_freq_qos_remove_request' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3a0256e3'/>
@@ -195,10 +205,14 @@
       <elf-symbol name='__SCT__tp_func_android_vh_ftrace_size_check' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xfe1a6457'/>
       <elf-symbol name='__SCT__tp_func_android_vh_futex_sleep_start' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xab97e4c6'/>
       <elf-symbol name='__SCT__tp_func_android_vh_get_from_fragment_pool' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xbdf97617'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_get_swap_page' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7b540097'/>
       <elf-symbol name='__SCT__tp_func_android_vh_gic_resume' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xbf064ca2'/>
       <elf-symbol name='__SCT__tp_func_android_vh_gpio_block_read' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x51b3c14d'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_handle_pte_fault_end' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x87bb91c5'/>
       <elf-symbol name='__SCT__tp_func_android_vh_handle_tlb_conf' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5e24893c'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_inactive_is_low' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2245a980'/>
       <elf-symbol name='__SCT__tp_func_android_vh_include_reserved_zone' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x64721ae0'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_init_swap_info_struct' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcfdd3fc8'/>
       <elf-symbol name='__SCT__tp_func_android_vh_iommu_alloc_iova' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x25e81aae'/>
       <elf-symbol name='__SCT__tp_func_android_vh_iommu_free_iova' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcc5fa746'/>
       <elf-symbol name='__SCT__tp_func_android_vh_iommu_iovad_alloc_iova' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xf53c90a1'/>
@@ -222,6 +236,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_mem_cgroup_free' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x57fb0968'/>
       <elf-symbol name='__SCT__tp_func_android_vh_mem_cgroup_id_remove' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xf99f05f2'/>
       <elf-symbol name='__SCT__tp_func_android_vh_meminfo_proc_show' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5ad7a375'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_migrate_page_states' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2eb25362'/>
       <elf-symbol name='__SCT__tp_func_android_vh_mm_dirty_limits' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8346a5cd'/>
       <elf-symbol name='__SCT__tp_func_android_vh_mmap_region' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x619bb866'/>
       <elf-symbol name='__SCT__tp_func_android_vh_mmc_attach_sd' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4a7db18d'/>
@@ -236,7 +251,9 @@
       <elf-symbol name='__SCT__tp_func_android_vh_of_i2c_get_board_info' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2762a0de'/>
       <elf-symbol name='__SCT__tp_func_android_vh_oom_check_panic' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa4342373'/>
       <elf-symbol name='__SCT__tp_func_android_vh_override_creds' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xb6a00a5a'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_page_isolated_for_reclaim' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x722cdc4e'/>
       <elf-symbol name='__SCT__tp_func_android_vh_page_referenced_check_bypass' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xf9646700'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_page_referenced_one_end' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x88622525'/>
       <elf-symbol name='__SCT__tp_func_android_vh_pagecache_get_page' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7b40f8e2'/>
       <elf-symbol name='__SCT__tp_func_android_vh_pcplist_add_cma_pages_bypass' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6c17c5ff'/>
       <elf-symbol name='__SCT__tp_func_android_vh_prepare_update_load_avg_se' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x35e2a1fa'/>
@@ -285,6 +302,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_set_memory_x' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5af071f'/>
       <elf-symbol name='__SCT__tp_func_android_vh_set_module_permit_after_init' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8697965d'/>
       <elf-symbol name='__SCT__tp_func_android_vh_set_module_permit_before_init' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4d87a7cd'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_set_shmem_page_flag' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xea9a5759'/>
       <elf-symbol name='__SCT__tp_func_android_vh_set_wake_flags' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x52983231'/>
       <elf-symbol name='__SCT__tp_func_android_vh_setscheduler_uclamp' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x5af3585a'/>
       <elf-symbol name='__SCT__tp_func_android_vh_sha256' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xdf5c3e32'/>
@@ -296,10 +314,14 @@
       <elf-symbol name='__SCT__tp_func_android_vh_show_suspend_epoch_val' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3e984dcb'/>
       <elf-symbol name='__SCT__tp_func_android_vh_shrink_node_memcgs' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xf5032906'/>
       <elf-symbol name='__SCT__tp_func_android_vh_shrink_slab_bypass' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd965e299'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_si_swapinfo' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x549088b9'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_snapshot_refaults' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8f5526f2'/>
       <elf-symbol name='__SCT__tp_func_android_vh_snd_compr_use_pause_in_drain' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x358d74d5'/>
       <elf-symbol name='__SCT__tp_func_android_vh_snd_soc_card_get_comp_chain' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xeadc5f40'/>
       <elf-symbol name='__SCT__tp_func_android_vh_sound_usb_support_cpu_suspend' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc5dc91d6'/>
       <elf-symbol name='__SCT__tp_func_android_vh_subpage_dma_contig_alloc' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x3609de60'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_swap_slot_cache_active' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x791e60ab'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_swapin_add_anon_rmap' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xefff3a9c'/>
       <elf-symbol name='__SCT__tp_func_android_vh_sync_txn_recvd' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2a914520'/>
       <elf-symbol name='__SCT__tp_func_android_vh_syscall_prctl_finished' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7cac4626'/>
       <elf-symbol name='__SCT__tp_func_android_vh_thermal_pm_notify_suspend' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xaef17d05'/>
@@ -327,6 +349,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_send_uic_command' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9297ca86'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_update_sdev' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x24baeaea'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ufs_update_sysfs' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa7c89c9'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_unuse_swap_page' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7489c496'/>
       <elf-symbol name='__SCT__tp_func_android_vh_update_topology_flags_workfn' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x6d41b27c'/>
       <elf-symbol name='__SCT__tp_func_android_vh_usb_dev_resume' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x98643df2'/>
       <elf-symbol name='__SCT__tp_func_android_vh_usb_dev_suspend' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xcb573a7e'/>
@@ -334,6 +357,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_v4l2subdev_set_frame_interval' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x43693b77'/>
       <elf-symbol name='__SCT__tp_func_android_vh_v4l2subdev_set_selection' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x60333147'/>
       <elf-symbol name='__SCT__tp_func_android_vh_vmpressure' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8f836067'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_waiting_for_page_migration' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x88955f41'/>
       <elf-symbol name='__SCT__tp_func_android_vh_watchdog_timer_softlockup' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xfc1aae1f'/>
       <elf-symbol name='__SCT__tp_func_android_vh_wq_lockup_pool' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xbf848ee3'/>
       <elf-symbol name='__SCT__tp_func_arm_event' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9107d224'/>
@@ -6704,120 +6728,120 @@
           <var-decl name='parent' type-id='cfff5953' visibility='default' filepath='include/linux/cgroup-defs.h' line='186' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='cgroup' size-in-bits='22016' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='357' column='1' id='ab9643dd'>
+      <class-decl name='cgroup' size-in-bits='22016' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='364' column='1' id='ab9643dd'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='self' type-id='7f3df443' visibility='default' filepath='include/linux/cgroup-defs.h' line='359' column='1'/>
+          <var-decl name='self' type-id='7f3df443' visibility='default' filepath='include/linux/cgroup-defs.h' line='366' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1856'>
-          <var-decl name='flags' type-id='7359adad' visibility='default' filepath='include/linux/cgroup-defs.h' line='361' column='1'/>
+          <var-decl name='flags' type-id='7359adad' visibility='default' filepath='include/linux/cgroup-defs.h' line='368' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1920'>
-          <var-decl name='level' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='369' column='1'/>
+          <var-decl name='level' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='376' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1952'>
-          <var-decl name='max_depth' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='372' column='1'/>
+          <var-decl name='max_depth' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='379' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1984'>
-          <var-decl name='nr_descendants' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='385' column='1'/>
+          <var-decl name='nr_descendants' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='392' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2016'>
-          <var-decl name='nr_dying_descendants' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='386' column='1'/>
+          <var-decl name='nr_dying_descendants' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='393' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2048'>
-          <var-decl name='max_descendants' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='387' column='1'/>
+          <var-decl name='max_descendants' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='394' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2080'>
-          <var-decl name='nr_populated_csets' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='400' column='1'/>
+          <var-decl name='nr_populated_csets' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='407' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2112'>
-          <var-decl name='nr_populated_domain_children' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='401' column='1'/>
+          <var-decl name='nr_populated_domain_children' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='408' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2144'>
-          <var-decl name='nr_populated_threaded_children' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='402' column='1'/>
+          <var-decl name='nr_populated_threaded_children' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='409' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2176'>
-          <var-decl name='nr_threaded_children' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='404' column='1'/>
+          <var-decl name='nr_threaded_children' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='411' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2240'>
-          <var-decl name='kn' type-id='150efd3f' visibility='default' filepath='include/linux/cgroup-defs.h' line='406' column='1'/>
+          <var-decl name='kn' type-id='150efd3f' visibility='default' filepath='include/linux/cgroup-defs.h' line='413' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2304'>
-          <var-decl name='procs_file' type-id='37a4ee40' visibility='default' filepath='include/linux/cgroup-defs.h' line='407' column='1'/>
+          <var-decl name='procs_file' type-id='37a4ee40' visibility='default' filepath='include/linux/cgroup-defs.h' line='414' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2880'>
-          <var-decl name='events_file' type-id='37a4ee40' visibility='default' filepath='include/linux/cgroup-defs.h' line='408' column='1'/>
+          <var-decl name='events_file' type-id='37a4ee40' visibility='default' filepath='include/linux/cgroup-defs.h' line='415' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3456'>
-          <var-decl name='subtree_control' type-id='1dc6a898' visibility='default' filepath='include/linux/cgroup-defs.h' line='417' column='1'/>
+          <var-decl name='subtree_control' type-id='1dc6a898' visibility='default' filepath='include/linux/cgroup-defs.h' line='424' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3472'>
-          <var-decl name='subtree_ss_mask' type-id='1dc6a898' visibility='default' filepath='include/linux/cgroup-defs.h' line='418' column='1'/>
+          <var-decl name='subtree_ss_mask' type-id='1dc6a898' visibility='default' filepath='include/linux/cgroup-defs.h' line='425' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3488'>
-          <var-decl name='old_subtree_control' type-id='1dc6a898' visibility='default' filepath='include/linux/cgroup-defs.h' line='419' column='1'/>
+          <var-decl name='old_subtree_control' type-id='1dc6a898' visibility='default' filepath='include/linux/cgroup-defs.h' line='426' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3504'>
-          <var-decl name='old_subtree_ss_mask' type-id='1dc6a898' visibility='default' filepath='include/linux/cgroup-defs.h' line='420' column='1'/>
+          <var-decl name='old_subtree_ss_mask' type-id='1dc6a898' visibility='default' filepath='include/linux/cgroup-defs.h' line='427' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3520'>
-          <var-decl name='subsys' type-id='75781a60' visibility='default' filepath='include/linux/cgroup-defs.h' line='423' column='1'/>
+          <var-decl name='subsys' type-id='75781a60' visibility='default' filepath='include/linux/cgroup-defs.h' line='430' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3968'>
-          <var-decl name='root' type-id='aede2cf0' visibility='default' filepath='include/linux/cgroup-defs.h' line='425' column='1'/>
+          <var-decl name='root' type-id='aede2cf0' visibility='default' filepath='include/linux/cgroup-defs.h' line='432' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4032'>
-          <var-decl name='cset_links' type-id='72f469ec' visibility='default' filepath='include/linux/cgroup-defs.h' line='431' column='1'/>
+          <var-decl name='cset_links' type-id='72f469ec' visibility='default' filepath='include/linux/cgroup-defs.h' line='438' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4160'>
-          <var-decl name='e_csets' type-id='a8e439b9' visibility='default' filepath='include/linux/cgroup-defs.h' line='440' column='1'/>
+          <var-decl name='e_csets' type-id='a8e439b9' visibility='default' filepath='include/linux/cgroup-defs.h' line='447' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5056'>
-          <var-decl name='dom_cgrp' type-id='46ff135d' visibility='default' filepath='include/linux/cgroup-defs.h' line='449' column='1'/>
+          <var-decl name='dom_cgrp' type-id='46ff135d' visibility='default' filepath='include/linux/cgroup-defs.h' line='456' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5120'>
-          <var-decl name='old_dom_cgrp' type-id='46ff135d' visibility='default' filepath='include/linux/cgroup-defs.h' line='450' column='1'/>
+          <var-decl name='old_dom_cgrp' type-id='46ff135d' visibility='default' filepath='include/linux/cgroup-defs.h' line='457' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5184'>
-          <var-decl name='rstat_cpu' type-id='d8e759a7' visibility='default' filepath='include/linux/cgroup-defs.h' line='453' column='1'/>
+          <var-decl name='rstat_cpu' type-id='d8e759a7' visibility='default' filepath='include/linux/cgroup-defs.h' line='460' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5248'>
-          <var-decl name='rstat_css_list' type-id='72f469ec' visibility='default' filepath='include/linux/cgroup-defs.h' line='454' column='1'/>
+          <var-decl name='rstat_css_list' type-id='72f469ec' visibility='default' filepath='include/linux/cgroup-defs.h' line='461' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5376'>
-          <var-decl name='last_bstat' type-id='cfd8587e' visibility='default' filepath='include/linux/cgroup-defs.h' line='457' column='1'/>
+          <var-decl name='last_bstat' type-id='cfd8587e' visibility='default' filepath='include/linux/cgroup-defs.h' line='464' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5568'>
-          <var-decl name='bstat' type-id='cfd8587e' visibility='default' filepath='include/linux/cgroup-defs.h' line='458' column='1'/>
+          <var-decl name='bstat' type-id='cfd8587e' visibility='default' filepath='include/linux/cgroup-defs.h' line='465' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5760'>
-          <var-decl name='prev_cputime' type-id='9c7bf560' visibility='default' filepath='include/linux/cgroup-defs.h' line='459' column='1'/>
+          <var-decl name='prev_cputime' type-id='9c7bf560' visibility='default' filepath='include/linux/cgroup-defs.h' line='466' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='5952'>
-          <var-decl name='pidlists' type-id='72f469ec' visibility='default' filepath='include/linux/cgroup-defs.h' line='465' column='1'/>
+          <var-decl name='pidlists' type-id='72f469ec' visibility='default' filepath='include/linux/cgroup-defs.h' line='472' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6080'>
-          <var-decl name='pidlist_mutex' type-id='925167dc' visibility='default' filepath='include/linux/cgroup-defs.h' line='466' column='1'/>
+          <var-decl name='pidlist_mutex' type-id='925167dc' visibility='default' filepath='include/linux/cgroup-defs.h' line='473' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6464'>
-          <var-decl name='offline_waitq' type-id='b5ab048f' visibility='default' filepath='include/linux/cgroup-defs.h' line='469' column='1'/>
+          <var-decl name='offline_waitq' type-id='b5ab048f' visibility='default' filepath='include/linux/cgroup-defs.h' line='476' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='6656'>
-          <var-decl name='release_agent_work' type-id='ef9025d0' visibility='default' filepath='include/linux/cgroup-defs.h' line='472' column='1'/>
+          <var-decl name='release_agent_work' type-id='ef9025d0' visibility='default' filepath='include/linux/cgroup-defs.h' line='479' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='7040'>
-          <var-decl name='psi' type-id='12878ab3' visibility='default' filepath='include/linux/cgroup-defs.h' line='475' column='1'/>
+          <var-decl name='psi' type-id='12878ab3' visibility='default' filepath='include/linux/cgroup-defs.h' line='482' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='12608'>
-          <var-decl name='bpf' type-id='b80e3996' visibility='default' filepath='include/linux/cgroup-defs.h' line='478' column='1'/>
+          <var-decl name='bpf' type-id='b80e3996' visibility='default' filepath='include/linux/cgroup-defs.h' line='485' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='21824'>
-          <var-decl name='congestion_count' type-id='49178f86' visibility='default' filepath='include/linux/cgroup-defs.h' line='481' column='1'/>
+          <var-decl name='congestion_count' type-id='49178f86' visibility='default' filepath='include/linux/cgroup-defs.h' line='488' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='21856'>
-          <var-decl name='freezer' type-id='ad50988b' visibility='default' filepath='include/linux/cgroup-defs.h' line='484' column='1'/>
+          <var-decl name='freezer' type-id='ad50988b' visibility='default' filepath='include/linux/cgroup-defs.h' line='491' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='22016'>
-          <var-decl name='ancestor_ids' type-id='09b35382' visibility='default' filepath='include/linux/cgroup-defs.h' line='487' column='1'/>
+          <var-decl name='ancestor_ids' type-id='09b35382' visibility='default' filepath='include/linux/cgroup-defs.h' line='494' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='kernfs_node' size-in-bits='1088' is-struct='yes' visibility='default' filepath='include/linux/kernfs.h' line='124' column='1' id='29d79af7'>
@@ -7135,59 +7159,59 @@
           <var-decl name='notify_timer' type-id='abe41e67' visibility='default' filepath='include/linux/cgroup-defs.h' line='129' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='cgroup_root' size-in-bits='55744' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='495' column='1' id='66f1e832'>
+      <class-decl name='cgroup_root' size-in-bits='55744' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='502' column='1' id='66f1e832'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='kf_root' type-id='e18defdb' visibility='default' filepath='include/linux/cgroup-defs.h' line='496' column='1'/>
+          <var-decl name='kf_root' type-id='e18defdb' visibility='default' filepath='include/linux/cgroup-defs.h' line='503' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='subsys_mask' type-id='f0981eeb' visibility='default' filepath='include/linux/cgroup-defs.h' line='499' column='1'/>
+          <var-decl name='subsys_mask' type-id='f0981eeb' visibility='default' filepath='include/linux/cgroup-defs.h' line='506' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='96'>
-          <var-decl name='hierarchy_id' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='502' column='1'/>
+          <var-decl name='hierarchy_id' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='509' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='cgrp' type-id='ab9643dd' visibility='default' filepath='include/linux/cgroup-defs.h' line='505' column='1'/>
+          <var-decl name='cgrp' type-id='ab9643dd' visibility='default' filepath='include/linux/cgroup-defs.h' line='512' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='22144'>
-          <var-decl name='cgrp_ancestor_id_storage' type-id='91ce1af9' visibility='default' filepath='include/linux/cgroup-defs.h' line='508' column='1'/>
+          <var-decl name='cgrp_ancestor_id_storage' type-id='91ce1af9' visibility='default' filepath='include/linux/cgroup-defs.h' line='515' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='22208'>
-          <var-decl name='nr_cgrps' type-id='49178f86' visibility='default' filepath='include/linux/cgroup-defs.h' line='511' column='1'/>
+          <var-decl name='nr_cgrps' type-id='49178f86' visibility='default' filepath='include/linux/cgroup-defs.h' line='518' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='22272'>
-          <var-decl name='root_list' type-id='72f469ec' visibility='default' filepath='include/linux/cgroup-defs.h' line='514' column='1'/>
+          <var-decl name='root_list' type-id='72f469ec' visibility='default' filepath='include/linux/cgroup-defs.h' line='521' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='22400'>
-          <var-decl name='flags' type-id='f0981eeb' visibility='default' filepath='include/linux/cgroup-defs.h' line='517' column='1'/>
+          <var-decl name='flags' type-id='f0981eeb' visibility='default' filepath='include/linux/cgroup-defs.h' line='524' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='22432'>
-          <var-decl name='release_agent_path' type-id='d16c6df4' visibility='default' filepath='include/linux/cgroup-defs.h' line='520' column='1'/>
+          <var-decl name='release_agent_path' type-id='d16c6df4' visibility='default' filepath='include/linux/cgroup-defs.h' line='527' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='55200'>
-          <var-decl name='name' type-id='59daf3ef' visibility='default' filepath='include/linux/cgroup-defs.h' line='523' column='1'/>
+          <var-decl name='name' type-id='59daf3ef' visibility='default' filepath='include/linux/cgroup-defs.h' line='530' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='cgroup_rstat_cpu' size-in-bits='512' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='309' column='1' id='a73d96cf'>
+      <class-decl name='cgroup_rstat_cpu' size-in-bits='512' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='316' column='1' id='a73d96cf'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='bsync' type-id='e4d85780' visibility='default' filepath='include/linux/cgroup-defs.h' line='314' column='1'/>
+          <var-decl name='bsync' type-id='e4d85780' visibility='default' filepath='include/linux/cgroup-defs.h' line='321' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='bstat' type-id='cfd8587e' visibility='default' filepath='include/linux/cgroup-defs.h' line='315' column='1'/>
+          <var-decl name='bstat' type-id='cfd8587e' visibility='default' filepath='include/linux/cgroup-defs.h' line='322' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='192'>
-          <var-decl name='last_bstat' type-id='cfd8587e' visibility='default' filepath='include/linux/cgroup-defs.h' line='321' column='1'/>
+          <var-decl name='last_bstat' type-id='cfd8587e' visibility='default' filepath='include/linux/cgroup-defs.h' line='328' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='384'>
-          <var-decl name='updated_children' type-id='46ff135d' visibility='default' filepath='include/linux/cgroup-defs.h' line='334' column='1'/>
+          <var-decl name='updated_children' type-id='46ff135d' visibility='default' filepath='include/linux/cgroup-defs.h' line='341' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='448'>
-          <var-decl name='updated_next' type-id='46ff135d' visibility='default' filepath='include/linux/cgroup-defs.h' line='335' column='1'/>
+          <var-decl name='updated_next' type-id='46ff135d' visibility='default' filepath='include/linux/cgroup-defs.h' line='342' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='u64_stats_sync' is-struct='yes' visibility='default' filepath='include/linux/u64_stats_sync.h' line='68' column='1' id='e4d85780'/>
-      <class-decl name='cgroup_base_stat' size-in-bits='192' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='285' column='1' id='cfd8587e'>
+      <class-decl name='cgroup_base_stat' size-in-bits='192' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='292' column='1' id='cfd8587e'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='cputime' type-id='ad6873f4' visibility='default' filepath='include/linux/cgroup-defs.h' line='286' column='1'/>
+          <var-decl name='cputime' type-id='ad6873f4' visibility='default' filepath='include/linux/cgroup-defs.h' line='293' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='task_cputime' size-in-bits='192' is-struct='yes' visibility='default' filepath='include/linux/sched/types.h' line='17' column='1' id='ad6873f4'>
@@ -7320,116 +7344,116 @@
           <var-decl name='release_work' type-id='ef9025d0' visibility='default' filepath='include/linux/bpf-cgroup.h' line='103' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='cgroup_freezer_state' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='338' column='1' id='ad50988b'>
+      <class-decl name='cgroup_freezer_state' size-in-bits='128' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='345' column='1' id='ad50988b'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='freeze' type-id='b50a4934' visibility='default' filepath='include/linux/cgroup-defs.h' line='340' column='1'/>
+          <var-decl name='freeze' type-id='b50a4934' visibility='default' filepath='include/linux/cgroup-defs.h' line='347' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='32'>
-          <var-decl name='e_freeze' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='343' column='1'/>
+          <var-decl name='e_freeze' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='350' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='nr_frozen_descendants' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='348' column='1'/>
+          <var-decl name='nr_frozen_descendants' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='355' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='96'>
-          <var-decl name='nr_frozen_tasks' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='354' column='1'/>
+          <var-decl name='nr_frozen_tasks' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='361' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='cgroup_subsys' size-in-bits='1920' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='622' column='1' id='1d115fd5'>
+      <class-decl name='cgroup_subsys' size-in-bits='1920' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='629' column='1' id='1d115fd5'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='css_alloc' type-id='a87691ee' visibility='default' filepath='include/linux/cgroup-defs.h' line='623' column='1'/>
+          <var-decl name='css_alloc' type-id='a87691ee' visibility='default' filepath='include/linux/cgroup-defs.h' line='630' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='css_online' type-id='8bdbbb63' visibility='default' filepath='include/linux/cgroup-defs.h' line='624' column='1'/>
+          <var-decl name='css_online' type-id='8bdbbb63' visibility='default' filepath='include/linux/cgroup-defs.h' line='631' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='128'>
-          <var-decl name='css_offline' type-id='f65daff2' visibility='default' filepath='include/linux/cgroup-defs.h' line='625' column='1'/>
+          <var-decl name='css_offline' type-id='f65daff2' visibility='default' filepath='include/linux/cgroup-defs.h' line='632' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='192'>
-          <var-decl name='css_released' type-id='f65daff2' visibility='default' filepath='include/linux/cgroup-defs.h' line='626' column='1'/>
+          <var-decl name='css_released' type-id='f65daff2' visibility='default' filepath='include/linux/cgroup-defs.h' line='633' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='256'>
-          <var-decl name='css_free' type-id='f65daff2' visibility='default' filepath='include/linux/cgroup-defs.h' line='627' column='1'/>
+          <var-decl name='css_free' type-id='f65daff2' visibility='default' filepath='include/linux/cgroup-defs.h' line='634' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='320'>
-          <var-decl name='css_reset' type-id='f65daff2' visibility='default' filepath='include/linux/cgroup-defs.h' line='628' column='1'/>
+          <var-decl name='css_reset' type-id='f65daff2' visibility='default' filepath='include/linux/cgroup-defs.h' line='635' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='384'>
-          <var-decl name='css_rstat_flush' type-id='fe17c379' visibility='default' filepath='include/linux/cgroup-defs.h' line='629' column='1'/>
+          <var-decl name='css_rstat_flush' type-id='fe17c379' visibility='default' filepath='include/linux/cgroup-defs.h' line='636' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='448'>
-          <var-decl name='css_extra_stat_show' type-id='f22a42d7' visibility='default' filepath='include/linux/cgroup-defs.h' line='630' column='1'/>
+          <var-decl name='css_extra_stat_show' type-id='f22a42d7' visibility='default' filepath='include/linux/cgroup-defs.h' line='637' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='512'>
-          <var-decl name='can_attach' type-id='354bcec3' visibility='default' filepath='include/linux/cgroup-defs.h' line='633' column='1'/>
+          <var-decl name='can_attach' type-id='354bcec3' visibility='default' filepath='include/linux/cgroup-defs.h' line='640' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='576'>
-          <var-decl name='cancel_attach' type-id='6484073c' visibility='default' filepath='include/linux/cgroup-defs.h' line='634' column='1'/>
+          <var-decl name='cancel_attach' type-id='6484073c' visibility='default' filepath='include/linux/cgroup-defs.h' line='641' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='640'>
-          <var-decl name='attach' type-id='6484073c' visibility='default' filepath='include/linux/cgroup-defs.h' line='635' column='1'/>
+          <var-decl name='attach' type-id='6484073c' visibility='default' filepath='include/linux/cgroup-defs.h' line='642' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='704'>
-          <var-decl name='post_attach' type-id='953b12f8' visibility='default' filepath='include/linux/cgroup-defs.h' line='636' column='1'/>
+          <var-decl name='post_attach' type-id='953b12f8' visibility='default' filepath='include/linux/cgroup-defs.h' line='643' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='768'>
-          <var-decl name='can_fork' type-id='2933f890' visibility='default' filepath='include/linux/cgroup-defs.h' line='637' column='1'/>
+          <var-decl name='can_fork' type-id='2933f890' visibility='default' filepath='include/linux/cgroup-defs.h' line='644' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='832'>
-          <var-decl name='cancel_fork' type-id='3c3edc81' visibility='default' filepath='include/linux/cgroup-defs.h' line='639' column='1'/>
+          <var-decl name='cancel_fork' type-id='3c3edc81' visibility='default' filepath='include/linux/cgroup-defs.h' line='646' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='896'>
-          <var-decl name='fork' type-id='1c9e19fb' visibility='default' filepath='include/linux/cgroup-defs.h' line='640' column='1'/>
+          <var-decl name='fork' type-id='1c9e19fb' visibility='default' filepath='include/linux/cgroup-defs.h' line='647' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='960'>
-          <var-decl name='exit' type-id='1c9e19fb' visibility='default' filepath='include/linux/cgroup-defs.h' line='641' column='1'/>
+          <var-decl name='exit' type-id='1c9e19fb' visibility='default' filepath='include/linux/cgroup-defs.h' line='648' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1024'>
-          <var-decl name='release' type-id='1c9e19fb' visibility='default' filepath='include/linux/cgroup-defs.h' line='642' column='1'/>
+          <var-decl name='release' type-id='1c9e19fb' visibility='default' filepath='include/linux/cgroup-defs.h' line='649' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1088'>
-          <var-decl name='bind' type-id='f65daff2' visibility='default' filepath='include/linux/cgroup-defs.h' line='643' column='1'/>
+          <var-decl name='bind' type-id='f65daff2' visibility='default' filepath='include/linux/cgroup-defs.h' line='650' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='early_init' type-id='b50a4934' visibility='default' filepath='include/linux/cgroup-defs.h' line='645' column='1'/>
+          <var-decl name='early_init' type-id='b50a4934' visibility='default' filepath='include/linux/cgroup-defs.h' line='652' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1'>
-          <var-decl name='implicit_on_dfl' type-id='b50a4934' visibility='default' filepath='include/linux/cgroup-defs.h' line='658' column='1'/>
+          <var-decl name='implicit_on_dfl' type-id='b50a4934' visibility='default' filepath='include/linux/cgroup-defs.h' line='665' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='2'>
-          <var-decl name='threaded' type-id='b50a4934' visibility='default' filepath='include/linux/cgroup-defs.h' line='670' column='1'/>
+          <var-decl name='threaded' type-id='b50a4934' visibility='default' filepath='include/linux/cgroup-defs.h' line='677' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='3'>
-          <var-decl name='broken_hierarchy' type-id='b50a4934' visibility='default' filepath='include/linux/cgroup-defs.h' line='684' column='1'/>
+          <var-decl name='broken_hierarchy' type-id='b50a4934' visibility='default' filepath='include/linux/cgroup-defs.h' line='691' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='4'>
-          <var-decl name='warned_broken_hierarchy' type-id='b50a4934' visibility='default' filepath='include/linux/cgroup-defs.h' line='685' column='1'/>
+          <var-decl name='warned_broken_hierarchy' type-id='b50a4934' visibility='default' filepath='include/linux/cgroup-defs.h' line='692' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1184'>
-          <var-decl name='id' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='688' column='1'/>
+          <var-decl name='id' type-id='95e97e5e' visibility='default' filepath='include/linux/cgroup-defs.h' line='695' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1216'>
-          <var-decl name='name' type-id='80f4b756' visibility='default' filepath='include/linux/cgroup-defs.h' line='689' column='1'/>
+          <var-decl name='name' type-id='80f4b756' visibility='default' filepath='include/linux/cgroup-defs.h' line='696' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1280'>
-          <var-decl name='legacy_name' type-id='80f4b756' visibility='default' filepath='include/linux/cgroup-defs.h' line='692' column='1'/>
+          <var-decl name='legacy_name' type-id='80f4b756' visibility='default' filepath='include/linux/cgroup-defs.h' line='699' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1344'>
-          <var-decl name='root' type-id='aede2cf0' visibility='default' filepath='include/linux/cgroup-defs.h' line='695' column='1'/>
+          <var-decl name='root' type-id='aede2cf0' visibility='default' filepath='include/linux/cgroup-defs.h' line='702' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1408'>
-          <var-decl name='css_idr' type-id='37ce495e' visibility='default' filepath='include/linux/cgroup-defs.h' line='698' column='1'/>
+          <var-decl name='css_idr' type-id='37ce495e' visibility='default' filepath='include/linux/cgroup-defs.h' line='705' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1600'>
-          <var-decl name='cfts' type-id='72f469ec' visibility='default' filepath='include/linux/cgroup-defs.h' line='704' column='1'/>
+          <var-decl name='cfts' type-id='72f469ec' visibility='default' filepath='include/linux/cgroup-defs.h' line='711' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1728'>
-          <var-decl name='dfl_cftypes' type-id='03054cfa' visibility='default' filepath='include/linux/cgroup-defs.h' line='710' column='1'/>
+          <var-decl name='dfl_cftypes' type-id='03054cfa' visibility='default' filepath='include/linux/cgroup-defs.h' line='717' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1792'>
-          <var-decl name='legacy_cftypes' type-id='03054cfa' visibility='default' filepath='include/linux/cgroup-defs.h' line='711' column='1'/>
+          <var-decl name='legacy_cftypes' type-id='03054cfa' visibility='default' filepath='include/linux/cgroup-defs.h' line='718' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1856'>
-          <var-decl name='depends_on' type-id='f0981eeb' visibility='default' filepath='include/linux/cgroup-defs.h' line='720' column='1'/>
+          <var-decl name='depends_on' type-id='f0981eeb' visibility='default' filepath='include/linux/cgroup-defs.h' line='727' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='css_set' size-in-bits='3264' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='196' column='1' id='afbeac63'>
@@ -7497,66 +7521,66 @@
           <var-decl name='callback_head' type-id='e3d8ce29' visibility='default' filepath='include/linux/cgroup-defs.h' line='282' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='cftype' size-in-bits='1728' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='533' column='1' id='ea2ebeac'>
+      <class-decl name='cftype' size-in-bits='1728' is-struct='yes' visibility='default' filepath='include/linux/cgroup-defs.h' line='540' column='1' id='ea2ebeac'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='name' type-id='59daf3ef' visibility='default' filepath='include/linux/cgroup-defs.h' line='539' column='1'/>
+          <var-decl name='name' type-id='59daf3ef' visibility='default' filepath='include/linux/cgroup-defs.h' line='546' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='512'>
-          <var-decl name='private' type-id='7359adad' visibility='default' filepath='include/linux/cgroup-defs.h' line='540' column='1'/>
+          <var-decl name='private' type-id='7359adad' visibility='default' filepath='include/linux/cgroup-defs.h' line='547' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='576'>
-          <var-decl name='max_write_len' type-id='b59d7dce' visibility='default' filepath='include/linux/cgroup-defs.h' line='546' column='1'/>
+          <var-decl name='max_write_len' type-id='b59d7dce' visibility='default' filepath='include/linux/cgroup-defs.h' line='553' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='640'>
-          <var-decl name='flags' type-id='f0981eeb' visibility='default' filepath='include/linux/cgroup-defs.h' line='549' column='1'/>
+          <var-decl name='flags' type-id='f0981eeb' visibility='default' filepath='include/linux/cgroup-defs.h' line='556' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='672'>
-          <var-decl name='file_offset' type-id='f0981eeb' visibility='default' filepath='include/linux/cgroup-defs.h' line='557' column='1'/>
+          <var-decl name='file_offset' type-id='f0981eeb' visibility='default' filepath='include/linux/cgroup-defs.h' line='564' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='704'>
-          <var-decl name='ss' type-id='dc91d125' visibility='default' filepath='include/linux/cgroup-defs.h' line='563' column='1'/>
+          <var-decl name='ss' type-id='dc91d125' visibility='default' filepath='include/linux/cgroup-defs.h' line='570' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='768'>
-          <var-decl name='node' type-id='72f469ec' visibility='default' filepath='include/linux/cgroup-defs.h' line='564' column='1'/>
+          <var-decl name='node' type-id='72f469ec' visibility='default' filepath='include/linux/cgroup-defs.h' line='571' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='896'>
-          <var-decl name='kf_ops' type-id='1f2a8949' visibility='default' filepath='include/linux/cgroup-defs.h' line='565' column='1'/>
+          <var-decl name='kf_ops' type-id='1f2a8949' visibility='default' filepath='include/linux/cgroup-defs.h' line='572' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='960'>
-          <var-decl name='open' type-id='964d2eb6' visibility='default' filepath='include/linux/cgroup-defs.h' line='567' column='1'/>
+          <var-decl name='open' type-id='964d2eb6' visibility='default' filepath='include/linux/cgroup-defs.h' line='574' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1024'>
-          <var-decl name='release' type-id='f1825e09' visibility='default' filepath='include/linux/cgroup-defs.h' line='568' column='1'/>
+          <var-decl name='release' type-id='f1825e09' visibility='default' filepath='include/linux/cgroup-defs.h' line='575' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1088'>
-          <var-decl name='read_u64' type-id='ad13fd93' visibility='default' filepath='include/linux/cgroup-defs.h' line='574' column='1'/>
+          <var-decl name='read_u64' type-id='ad13fd93' visibility='default' filepath='include/linux/cgroup-defs.h' line='581' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1152'>
-          <var-decl name='read_s64' type-id='ae18a37d' visibility='default' filepath='include/linux/cgroup-defs.h' line='578' column='1'/>
+          <var-decl name='read_s64' type-id='ae18a37d' visibility='default' filepath='include/linux/cgroup-defs.h' line='585' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1216'>
-          <var-decl name='seq_show' type-id='0131eb61' visibility='default' filepath='include/linux/cgroup-defs.h' line='581' column='1'/>
+          <var-decl name='seq_show' type-id='0131eb61' visibility='default' filepath='include/linux/cgroup-defs.h' line='588' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1280'>
-          <var-decl name='seq_start' type-id='a46b05a0' visibility='default' filepath='include/linux/cgroup-defs.h' line='584' column='1'/>
+          <var-decl name='seq_start' type-id='a46b05a0' visibility='default' filepath='include/linux/cgroup-defs.h' line='591' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1344'>
-          <var-decl name='seq_next' type-id='b6ba26fa' visibility='default' filepath='include/linux/cgroup-defs.h' line='585' column='1'/>
+          <var-decl name='seq_next' type-id='b6ba26fa' visibility='default' filepath='include/linux/cgroup-defs.h' line='592' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1408'>
-          <var-decl name='seq_stop' type-id='6ba28d1c' visibility='default' filepath='include/linux/cgroup-defs.h' line='586' column='1'/>
+          <var-decl name='seq_stop' type-id='6ba28d1c' visibility='default' filepath='include/linux/cgroup-defs.h' line='593' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1472'>
-          <var-decl name='write_u64' type-id='3e9fac96' visibility='default' filepath='include/linux/cgroup-defs.h' line='593' column='1'/>
+          <var-decl name='write_u64' type-id='3e9fac96' visibility='default' filepath='include/linux/cgroup-defs.h' line='600' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1536'>
-          <var-decl name='write_s64' type-id='2b0348f0' visibility='default' filepath='include/linux/cgroup-defs.h' line='598' column='1'/>
+          <var-decl name='write_s64' type-id='2b0348f0' visibility='default' filepath='include/linux/cgroup-defs.h' line='605' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1600'>
-          <var-decl name='write' type-id='17b1add7' visibility='default' filepath='include/linux/cgroup-defs.h' line='607' column='1'/>
+          <var-decl name='write' type-id='17b1add7' visibility='default' filepath='include/linux/cgroup-defs.h' line='614' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='1664'>
-          <var-decl name='poll' type-id='b347e5ac' visibility='default' filepath='include/linux/cgroup-defs.h' line='610' column='1'/>
+          <var-decl name='poll' type-id='b347e5ac' visibility='default' filepath='include/linux/cgroup-defs.h' line='617' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='rcu_work' size-in-bits='576' is-struct='yes' visibility='default' filepath='include/linux/workqueue.h' line='130' column='1' id='7c0b9fdb'>
@@ -9663,21 +9687,21 @@
           <var-decl name='cgroup_ns' type-id='f774a955' visibility='default' filepath='include/linux/nsproxy.h' line='40' column='1'/>
         </data-member>
       </class-decl>
-      <class-decl name='cgroup_namespace' size-in-bits='448' is-struct='yes' visibility='default' filepath='include/linux/cgroup.h' line='866' column='1' id='e54806c5'>
+      <class-decl name='cgroup_namespace' size-in-bits='448' is-struct='yes' visibility='default' filepath='include/linux/cgroup.h' line='867' column='1' id='e54806c5'>
         <data-member access='public' layout-offset-in-bits='0'>
-          <var-decl name='count' type-id='64615833' visibility='default' filepath='include/linux/cgroup.h' line='867' column='1'/>
+          <var-decl name='count' type-id='64615833' visibility='default' filepath='include/linux/cgroup.h' line='868' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='64'>
-          <var-decl name='ns' type-id='99f367f2' visibility='default' filepath='include/linux/cgroup.h' line='868' column='1'/>
+          <var-decl name='ns' type-id='99f367f2' visibility='default' filepath='include/linux/cgroup.h' line='869' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='256'>
-          <var-decl name='user_ns' type-id='c0ced320' visibility='default' filepath='include/linux/cgroup.h' line='869' column='1'/>
+          <var-decl name='user_ns' type-id='c0ced320' visibility='default' filepath='include/linux/cgroup.h' line='870' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='320'>
-          <var-decl name='ucounts' type-id='b1d4934a' visibility='default' filepath='include/linux/cgroup.h' line='870' column='1'/>
+          <var-decl name='ucounts' type-id='b1d4934a' visibility='default' filepath='include/linux/cgroup.h' line='871' column='1'/>
         </data-member>
         <data-member access='public' layout-offset-in-bits='384'>
-          <var-decl name='root_cset' type-id='85d57723' visibility='default' filepath='include/linux/cgroup.h' line='871' column='1'/>
+          <var-decl name='root_cset' type-id='85d57723' visibility='default' filepath='include/linux/cgroup.h' line='872' column='1'/>
         </data-member>
       </class-decl>
       <class-decl name='signal_struct' size-in-bits='8960' is-struct='yes' visibility='default' filepath='include/linux/sched/signal.h' line='83' column='1' id='9a4619bf'>
