@@ -235,6 +235,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_psi_event' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x2174bc46'/>
       <elf-symbol name='__SCT__tp_func_android_vh_psi_group' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc5281456'/>
       <elf-symbol name='__SCT__tp_func_android_vh_ptype_head' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x7d21403c'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_rebuild_root_domains_bypass' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x8960f263'/>
       <elf-symbol name='__SCT__tp_func_android_vh_resume_begin' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xed8f4c98'/>
       <elf-symbol name='__SCT__tp_func_android_vh_resume_end' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x26342ff1'/>
       <elf-symbol name='__SCT__tp_func_android_vh_revert_creds' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x62a16acf'/>
@@ -320,7 +321,6 @@
       <elf-symbol name='__SCT__tp_func_android_vh_v4l2subdev_set_frame_interval' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x43693b77'/>
       <elf-symbol name='__SCT__tp_func_android_vh_v4l2subdev_set_selection' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x60333147'/>
       <elf-symbol name='__SCT__tp_func_android_vh_watchdog_timer_softlockup' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xfc1aae1f'/>
-      <elf-symbol name='__SCT__tp_func_android_vh_wq_lockup_pool' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xbf848ee3'/>
       <elf-symbol name='__SCT__tp_func_arm_event' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x9107d224'/>
       <elf-symbol name='__SCT__tp_func_binder_transaction_received' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4af5c521'/>
       <elf-symbol name='__SCT__tp_func_block_bio_complete' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4e144a54'/>
