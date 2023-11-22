@@ -436,6 +436,7 @@
       <elf-symbol name='__SCT__tp_func_sched_update_nr_running_tp' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xa0e671d8'/>
       <elf-symbol name='__SCT__tp_func_sched_util_est_cfs_tp' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x38b6a890'/>
       <elf-symbol name='__SCT__tp_func_sched_util_est_se_tp' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd20c66ab'/>
+      <elf-symbol name='__SCT__tp_func_sched_wakeup' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc3750596'/>
       <elf-symbol name='__SCT__tp_func_sched_waking' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xbaccf602'/>
       <elf-symbol name='__SCT__tp_func_softirq_entry' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x36e27653'/>
       <elf-symbol name='__SCT__tp_func_softirq_exit' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x92c5d82c'/>
