@@ -416,6 +416,7 @@
       <elf-symbol name='__SCT__tp_func_android_vh_thermal_pm_notify_suspend' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xaef17d05'/>
       <elf-symbol name='__SCT__tp_func_android_vh_timer_calc_index' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe73bc2fe'/>
       <elf-symbol name='__SCT__tp_func_android_vh_timerfd_create' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xc1bfef8b'/>
+      <elf-symbol name='__SCT__tp_func_android_vh_try_fixup_sea' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xe9b46b1d'/>
       <elf-symbol name='__SCT__tp_func_android_vh_try_to_freeze_todo' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xedb43047'/>
       <elf-symbol name='__SCT__tp_func_android_vh_try_to_freeze_todo_unfrozen' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0xd10ea5b1'/>
       <elf-symbol name='__SCT__tp_func_android_vh_try_to_unmap_one' type='func-type' binding='global-binding' visibility='default-visibility' is-defined='yes' crc='0x4d5b0d35'/>
